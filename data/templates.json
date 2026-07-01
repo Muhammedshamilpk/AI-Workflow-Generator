@@ -1,0 +1,25 @@
+{
+  "User Signup": [
+    "When a customer signs up",
+    "When a new user registers",
+    "After user registration",
+    "Whenever someone creates an account",
+    "Once registration is completed"
+  ],
+
+  "New Order": [
+    "When a new order arrives",
+    "After an order is placed",
+    "Whenever a customer places an order",
+    "When an order is received",
+    "After receiving a new order"
+  ],
+
+  "Payment Success": [
+    "When payment succeeds",
+    "After a successful payment",
+    "Whenever a payment is completed",
+    "Once payment is successful",
+    "When payment is confirmed"
+  ]
+}

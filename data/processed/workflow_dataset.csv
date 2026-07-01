@@ -1,0 +1,972 @@
+id,user_input,trigger,action_1,action_2,action_3
+1,"When a customer signs up, send a Slack notification, send an email and create a CRM record.",User Signup,Notify Slack,Send Email,Update CRM
+2,"When a new user registers, store the record, notify the customer by email and update the CRM.",User Signup,Save to Database,Send Email,Update CRM
+3,"After user registration, send an email.",User Signup,Send Email,,
+4,"Whenever someone creates an account, send an email notification.",User Signup,Send Email,,
+5,"Once registration is completed, create a CRM record.",User Signup,Update CRM,,
+6,"When a new account is created, store the information in the database and notify the customer by email.",User Signup,Save to Database,Send Email,
+7,"After a customer registers, store the information in the database and email the customer.",User Signup,Save to Database,Send Email,
+8,"Whenever a user signs up, notify the customer by email.",User Signup,Send Email,,
+9,"On successful registration, save the data to the database.",User Signup,Save to Database,,
+10,"Every time a customer creates an account, send a Slack alert, save the customer details and notify the customer by email.",User Signup,Notify Slack,Save to Database,Send Email
+11,"When a customer signs up, store the record.",User Signup,Save to Database,,
+12,"When a new user registers, notify the Slack channel and save the customer details.",User Signup,Notify Slack,Save to Database,
+13,"After user registration, send a Slack notification, send a welcome email and update the customer profile in the CRM.",User Signup,Notify Slack,Send Email,Update CRM
+14,"Whenever someone creates an account, save the data to the database and create a CRM record.",User Signup,Save to Database,Update CRM,
+15,"Once registration is completed, save the data to the database and send a welcome email.",User Signup,Save to Database,Send Email,
+16,"When a new account is created, send a Slack notification, insert the record into the database and notify the customer by email.",User Signup,Notify Slack,Save to Database,Send Email
+17,"After a customer registers, alert the team on Slack and save the customer details.",User Signup,Notify Slack,Save to Database,
+18,"Whenever a user signs up, email the customer.",User Signup,Send Email,,
+19,"On successful registration, store the information in the database and send an email notification.",User Signup,Save to Database,Send Email,
+20,"Every time a customer creates an account, post a message to Slack, insert the record into the database and send an email.",User Signup,Notify Slack,Save to Database,Send Email
+21,"When a customer signs up, send a Slack alert and send an email notification.",User Signup,Notify Slack,Send Email,
+22,"When a new user registers, insert the record into the database and save the customer in the CRM.",User Signup,Save to Database,Update CRM,
+23,"After user registration, send a Slack alert.",User Signup,Notify Slack,,
+24,"Whenever someone creates an account, send a welcome email and create a CRM record.",User Signup,Send Email,Update CRM,
+25,"Once registration is completed, send a Slack alert, save the customer details and update the customer profile in the CRM.",User Signup,Notify Slack,Save to Database,Update CRM
+26,"When a new account is created, save the data to the database and add the customer to the CRM.",User Signup,Save to Database,Update CRM,
+27,"After a customer registers, send an email notification.",User Signup,Send Email,,
+28,"Whenever a user signs up, save the data to the database and notify the customer by email.",User Signup,Save to Database,Send Email,
+29,"On successful registration, update the CRM.",User Signup,Update CRM,,
+30,"Every time a customer creates an account, store the record, send a welcome email and save the customer in the CRM.",User Signup,Save to Database,Send Email,Update CRM
+31,"When a customer signs up, send a Slack notification, send an email notification and add the customer to the CRM.",User Signup,Notify Slack,Send Email,Update CRM
+32,"When a new user registers, insert the record into the database.",User Signup,Save to Database,,
+33,"After user registration, email the customer.",User Signup,Send Email,,
+34,"Whenever someone creates an account, send a Slack notification and send an email notification.",User Signup,Notify Slack,Send Email,
+35,"Once registration is completed, notify the customer by email.",User Signup,Send Email,,
+36,"When a new account is created, send a Slack notification.",User Signup,Notify Slack,,
+37,"After a customer registers, save the data to the database, send an email notification and add the customer to the CRM.",User Signup,Save to Database,Send Email,Update CRM
+38,"Whenever a user signs up, send a Slack notification and save the data to the database.",User Signup,Notify Slack,Save to Database,
+39,"On successful registration, send a Slack alert and insert the record into the database.",User Signup,Notify Slack,Save to Database,
+40,"Every time a customer creates an account, send a Slack notification.",User Signup,Notify Slack,,
+41,"When a customer signs up, save the customer details.",User Signup,Save to Database,,
+42,"When a new user registers, notify the Slack channel, save the customer details and send a welcome email.",User Signup,Notify Slack,Save to Database,Send Email
+43,"After user registration, send a welcome email.",User Signup,Send Email,,
+44,"Whenever someone creates an account, store the information in the database and email the customer.",User Signup,Save to Database,Send Email,
+45,"Once registration is completed, store the record, send an email notification and update the customer profile in the CRM.",User Signup,Save to Database,Send Email,Update CRM
+46,"When a new account is created, update the customer profile in the CRM.",User Signup,Update CRM,,
+47,"After a customer registers, send a welcome email.",User Signup,Send Email,,
+48,"Whenever a user signs up, post a message to Slack, insert the record into the database and update the CRM.",User Signup,Notify Slack,Save to Database,Update CRM
+49,"On successful registration, alert the team on Slack, send a welcome email and create a CRM record.",User Signup,Notify Slack,Send Email,Update CRM
+50,"Every time a customer creates an account, send a Slack alert.",User Signup,Notify Slack,,
+51,"When a customer signs up, send a Slack notification and save the customer in the CRM.",User Signup,Notify Slack,Update CRM,
+52,"When a new user registers, post a message to Slack and send an email notification.",User Signup,Notify Slack,Send Email,
+53,"After user registration, send an email notification.",User Signup,Send Email,,
+54,"Whenever someone creates an account, send an email.",User Signup,Send Email,,
+55,"Once registration is completed, update the customer profile in the CRM.",User Signup,Update CRM,,
+56,"When a new account is created, notify the Slack channel and create a CRM record.",User Signup,Notify Slack,Update CRM,
+57,"After a customer registers, alert the team on Slack and notify the customer by email.",User Signup,Notify Slack,Send Email,
+58,"Whenever a user signs up, store the record and update the customer profile in the CRM.",User Signup,Save to Database,Update CRM,
+59,"On successful registration, alert the team on Slack.",User Signup,Notify Slack,,
+60,"Every time a customer creates an account, send an email notification.",User Signup,Send Email,,
+61,"When a customer signs up, notify the Slack channel, save the customer details and send an email notification.",User Signup,Notify Slack,Save to Database,Send Email
+62,"When a new user registers, send a Slack alert and send a welcome email.",User Signup,Notify Slack,Send Email,
+63,"Whenever someone creates an account, post a message to Slack.",User Signup,Notify Slack,,
+64,"Once registration is completed, send a Slack alert.",User Signup,Notify Slack,,
+65,"When a new account is created, insert the record into the database, send an email notification and add the customer to the CRM.",User Signup,Save to Database,Send Email,Update CRM
+66,"After a customer registers, alert the team on Slack, store the information in the database and email the customer.",User Signup,Notify Slack,Save to Database,Send Email
+67,"Whenever a user signs up, alert the team on Slack and insert the record into the database.",User Signup,Notify Slack,Save to Database,
+68,"On successful registration, notify the customer by email and add the customer to the CRM.",User Signup,Send Email,Update CRM,
+69,"Every time a customer creates an account, store the record, email the customer and create a CRM record.",User Signup,Save to Database,Send Email,Update CRM
+70,"When a customer signs up, email the customer and save the customer in the CRM.",User Signup,Send Email,Update CRM,
+71,"When a new user registers, add the customer to the CRM.",User Signup,Update CRM,,
+72,"After user registration, store the record, email the customer and update the CRM.",User Signup,Save to Database,Send Email,Update CRM
+73,"Whenever someone creates an account, save the customer details.",User Signup,Save to Database,,
+74,"Once registration is completed, alert the team on Slack.",User Signup,Notify Slack,,
+75,"When a new account is created, alert the team on Slack and store the information in the database.",User Signup,Notify Slack,Save to Database,
+76,"After a customer registers, alert the team on Slack, save the customer details and update the CRM.",User Signup,Notify Slack,Save to Database,Update CRM
+77,"Whenever a user signs up, notify the Slack channel, email the customer and create a CRM record.",User Signup,Notify Slack,Send Email,Update CRM
+78,"On successful registration, send a Slack alert, insert the record into the database and send an email notification.",User Signup,Notify Slack,Save to Database,Send Email
+79,"Every time a customer creates an account, send a welcome email.",User Signup,Send Email,,
+80,"When a customer signs up, alert the team on Slack, store the record and send an email notification.",User Signup,Notify Slack,Save to Database,Send Email
+81,"When a new user registers, create a CRM record.",User Signup,Update CRM,,
+82,"After user registration, save the data to the database.",User Signup,Save to Database,,
+83,"Whenever someone creates an account, store the information in the database.",User Signup,Save to Database,,
+84,"Once registration is completed, alert the team on Slack, store the record and notify the customer by email.",User Signup,Notify Slack,Save to Database,Send Email
+85,"When a new account is created, send a Slack notification, insert the record into the database and send a welcome email.",User Signup,Notify Slack,Save to Database,Send Email
+86,"After a customer registers, insert the record into the database.",User Signup,Save to Database,,
+87,"Whenever a user signs up, notify the Slack channel, notify the customer by email and update the CRM.",User Signup,Notify Slack,Send Email,Update CRM
+88,"On successful registration, post a message to Slack and email the customer.",User Signup,Notify Slack,Send Email,
+89,"Every time a customer creates an account, notify the Slack channel and send an email.",User Signup,Notify Slack,Send Email,
+90,"When a customer signs up, notify the Slack channel and save the data to the database.",User Signup,Notify Slack,Save to Database,
+91,"When a new user registers, store the record and save the customer in the CRM.",User Signup,Save to Database,Update CRM,
+92,"Once registration is completed, save the customer in the CRM.",User Signup,Update CRM,,
+93,"When a new account is created, post a message to Slack, store the record and send an email.",User Signup,Notify Slack,Save to Database,Send Email
+94,"After a customer registers, insert the record into the database and send a welcome email.",User Signup,Save to Database,Send Email,
+95,"Whenever a user signs up, notify the Slack channel, save the data to the database and add the customer to the CRM.",User Signup,Notify Slack,Save to Database,Update CRM
+96,"On successful registration, save the data to the database and send an email notification.",User Signup,Save to Database,Send Email,
+97,"Every time a customer creates an account, post a message to Slack and save the customer in the CRM.",User Signup,Notify Slack,Update CRM,
+98,"When a user logs in, track the activity, send a Slack notification and add the customer to the CRM.",User Login,Log Activity,Notify Slack,Update CRM
+99,"After user login, save the activity log, alert the team on Slack and create a CRM record.",User Login,Log Activity,Notify Slack,Update CRM
+100,"Whenever a customer signs in, post a message to Slack and update the customer profile in the CRM.",User Login,Notify Slack,Update CRM,
+101,"Once login is successful, create an activity log entry and update the customer profile in the CRM.",User Login,Log Activity,Update CRM,
+102,"Every time a user logs in, create an activity log entry, send a Slack alert and save the customer in the CRM.",User Login,Log Activity,Notify Slack,Update CRM
+103,"When someone signs into their account, save the activity log.",User Login,Log Activity,,
+104,"After successful login, record the activity.",User Login,Log Activity,,
+105,"Whenever login occurs, record the activity.",User Login,Log Activity,,
+106,"When a customer accesses their account, track the activity and update the customer profile in the CRM.",User Login,Log Activity,Update CRM,
+107,"On user login, track the activity, post a message to Slack and create a CRM record.",User Login,Log Activity,Notify Slack,Update CRM
+108,"When a user logs in, update the CRM.",User Login,Update CRM,,
+109,"After user login, send a Slack notification.",User Login,Notify Slack,,
+110,"Whenever a customer signs in, add the customer to the CRM.",User Login,Update CRM,,
+111,"Once login is successful, log the activity and update the customer profile in the CRM.",User Login,Log Activity,Update CRM,
+112,"Every time a user logs in, send a Slack alert.",User Login,Notify Slack,,
+113,"When someone signs into their account, create an activity log entry, send a Slack alert and update the customer profile in the CRM.",User Login,Log Activity,Notify Slack,Update CRM
+114,"After successful login, track the activity, alert the team on Slack and create a CRM record.",User Login,Log Activity,Notify Slack,Update CRM
+115,"Whenever login occurs, save the activity log, post a message to Slack and update the CRM.",User Login,Log Activity,Notify Slack,Update CRM
+116,"When a customer accesses their account, save the activity log, alert the team on Slack and add the customer to the CRM.",User Login,Log Activity,Notify Slack,Update CRM
+117,"On user login, record the activity.",User Login,Log Activity,,
+118,"When a user logs in, send a Slack notification.",User Login,Notify Slack,,
+119,"After user login, track the activity, alert the team on Slack and add the customer to the CRM.",User Login,Log Activity,Notify Slack,Update CRM
+120,"Whenever a customer signs in, record the activity and post a message to Slack.",User Login,Log Activity,Notify Slack,
+121,"Every time a user logs in, save the activity log and post a message to Slack.",User Login,Log Activity,Notify Slack,
+122,"When someone signs into their account, track the activity and create a CRM record.",User Login,Log Activity,Update CRM,
+123,"After successful login, notify the Slack channel and update the customer profile in the CRM.",User Login,Notify Slack,Update CRM,
+124,"Whenever login occurs, send a Slack notification and update the customer profile in the CRM.",User Login,Notify Slack,Update CRM,
+125,"When a customer accesses their account, add the customer to the CRM.",User Login,Update CRM,,
+126,"On user login, send a Slack alert.",User Login,Notify Slack,,
+127,"When a user logs in, track the activity, send a Slack notification and update the customer profile in the CRM.",User Login,Log Activity,Notify Slack,Update CRM
+128,"After user login, save the activity log.",User Login,Log Activity,,
+129,"Whenever a customer signs in, track the activity and alert the team on Slack.",User Login,Log Activity,Notify Slack,
+130,"Once login is successful, post a message to Slack and save the customer in the CRM.",User Login,Notify Slack,Update CRM,
+131,"Every time a user logs in, notify the Slack channel.",User Login,Notify Slack,,
+132,"When someone signs into their account, record the activity, notify the Slack channel and update the CRM.",User Login,Log Activity,Notify Slack,Update CRM
+133,"Whenever login occurs, create a CRM record.",User Login,Update CRM,,
+134,"When a customer accesses their account, track the activity.",User Login,Log Activity,,
+135,"On user login, save the activity log, alert the team on Slack and create a CRM record.",User Login,Log Activity,Notify Slack,Update CRM
+136,"When a user logs in, save the activity log, notify the Slack channel and add the customer to the CRM.",User Login,Log Activity,Notify Slack,Update CRM
+137,"After user login, send a Slack alert.",User Login,Notify Slack,,
+138,"Whenever a customer signs in, log the activity, send a Slack alert and create a CRM record.",User Login,Log Activity,Notify Slack,Update CRM
+139,"Once login is successful, save the customer in the CRM.",User Login,Update CRM,,
+140,"Every time a user logs in, save the activity log, send a Slack alert and update the customer profile in the CRM.",User Login,Log Activity,Notify Slack,Update CRM
+141,"When someone signs into their account, log the activity, post a message to Slack and update the customer profile in the CRM.",User Login,Log Activity,Notify Slack,Update CRM
+142,"After successful login, alert the team on Slack.",User Login,Notify Slack,,
+143,"Whenever login occurs, record the activity, send a Slack alert and save the customer in the CRM.",User Login,Log Activity,Notify Slack,Update CRM
+144,"When a customer accesses their account, track the activity, send a Slack alert and save the customer in the CRM.",User Login,Log Activity,Notify Slack,Update CRM
+145,"On user login, save the activity log and update the customer profile in the CRM.",User Login,Log Activity,Update CRM,
+146,"When a user logs in, send a Slack alert.",User Login,Notify Slack,,
+147,"After user login, log the activity, post a message to Slack and save the customer in the CRM.",User Login,Log Activity,Notify Slack,Update CRM
+148,"Whenever a customer signs in, send a Slack notification.",User Login,Notify Slack,,
+149,"Once login is successful, alert the team on Slack and add the customer to the CRM.",User Login,Notify Slack,Update CRM,
+150,"Every time a user logs in, log the activity, send a Slack notification and update the customer profile in the CRM.",User Login,Log Activity,Notify Slack,Update CRM
+151,"When someone signs into their account, track the activity and update the customer profile in the CRM.",User Login,Log Activity,Update CRM,
+152,"After successful login, save the activity log and create a CRM record.",User Login,Log Activity,Update CRM,
+153,"Whenever login occurs, save the activity log and add the customer to the CRM.",User Login,Log Activity,Update CRM,
+154,"When a customer accesses their account, post a message to Slack and add the customer to the CRM.",User Login,Notify Slack,Update CRM,
+155,"On user login, alert the team on Slack and save the customer in the CRM.",User Login,Notify Slack,Update CRM,
+156,"When a user logs in, record the activity and save the customer in the CRM.",User Login,Log Activity,Update CRM,
+157,"After user login, add the customer to the CRM.",User Login,Update CRM,,
+158,"Whenever a customer signs in, track the activity, alert the team on Slack and add the customer to the CRM.",User Login,Log Activity,Notify Slack,Update CRM
+159,"Once login is successful, record the activity, alert the team on Slack and create a CRM record.",User Login,Log Activity,Notify Slack,Update CRM
+160,"Every time a user logs in, log the activity and send a Slack alert.",User Login,Log Activity,Notify Slack,
+161,"When someone signs into their account, notify the Slack channel.",User Login,Notify Slack,,
+162,"After successful login, save the customer in the CRM.",User Login,Update CRM,,
+163,"Whenever login occurs, log the activity, send a Slack alert and save the customer in the CRM.",User Login,Log Activity,Notify Slack,Update CRM
+164,"When a customer accesses their account, alert the team on Slack and create a CRM record.",User Login,Notify Slack,Update CRM,
+165,"On user login, post a message to Slack.",User Login,Notify Slack,,
+166,"When a user logs in, track the activity.",User Login,Log Activity,,
+167,"After user login, record the activity and create a CRM record.",User Login,Log Activity,Update CRM,
+168,"Whenever a customer signs in, log the activity, send a Slack alert and update the customer profile in the CRM.",User Login,Log Activity,Notify Slack,Update CRM
+169,"Once login is successful, track the activity, post a message to Slack and save the customer in the CRM.",User Login,Log Activity,Notify Slack,Update CRM
+170,"Every time a user logs in, create an activity log entry, notify the Slack channel and create a CRM record.",User Login,Log Activity,Notify Slack,Update CRM
+171,"When someone signs into their account, record the activity, send a Slack notification and create a CRM record.",User Login,Log Activity,Notify Slack,Update CRM
+172,"After successful login, track the activity, post a message to Slack and add the customer to the CRM.",User Login,Log Activity,Notify Slack,Update CRM
+173,"Whenever login occurs, record the activity and alert the team on Slack.",User Login,Log Activity,Notify Slack,
+174,"When a customer accesses their account, record the activity, alert the team on Slack and add the customer to the CRM.",User Login,Log Activity,Notify Slack,Update CRM
+175,"On user login, create an activity log entry, send a Slack notification and create a CRM record.",User Login,Log Activity,Notify Slack,Update CRM
+176,"When a user logs in, log the activity and create a CRM record.",User Login,Log Activity,Update CRM,
+177,"After user login, post a message to Slack and update the CRM.",User Login,Notify Slack,Update CRM,
+178,"Whenever a customer signs in, post a message to Slack and save the customer in the CRM.",User Login,Notify Slack,Update CRM,
+179,"Once login is successful, log the activity, send a Slack alert and update the CRM.",User Login,Log Activity,Notify Slack,Update CRM
+180,"Every time a user logs in, send a Slack alert and save the customer in the CRM.",User Login,Notify Slack,Update CRM,
+181,"When someone signs into their account, record the activity.",User Login,Log Activity,,
+182,"After successful login, create an activity log entry, notify the Slack channel and create a CRM record.",User Login,Log Activity,Notify Slack,Update CRM
+183,"Whenever login occurs, alert the team on Slack and create a CRM record.",User Login,Notify Slack,Update CRM,
+184,"When a customer accesses their account, track the activity, alert the team on Slack and update the customer profile in the CRM.",User Login,Log Activity,Notify Slack,Update CRM
+185,"On user login, record the activity and alert the team on Slack.",User Login,Log Activity,Notify Slack,
+186,"When a user logs in, alert the team on Slack and update the customer profile in the CRM.",User Login,Notify Slack,Update CRM,
+187,"After user login, save the activity log, alert the team on Slack and save the customer in the CRM.",User Login,Log Activity,Notify Slack,Update CRM
+188,"Whenever a customer signs in, send a Slack alert.",User Login,Notify Slack,,
+189,"Once login is successful, add the customer to the CRM.",User Login,Update CRM,,
+190,"Every time a user logs in, record the activity and send a Slack alert.",User Login,Log Activity,Notify Slack,
+191,"When someone signs into their account, post a message to Slack and update the CRM.",User Login,Notify Slack,Update CRM,
+192,"After successful login, send a Slack alert.",User Login,Notify Slack,,
+193,"Whenever login occurs, post a message to Slack.",User Login,Notify Slack,,
+194,"When a customer accesses their account, create an activity log entry, send a Slack notification and create a CRM record.",User Login,Log Activity,Notify Slack,Update CRM
+195,"On user login, create an activity log entry and update the customer profile in the CRM.",User Login,Log Activity,Update CRM,
+196,"When a new order is placed, save the customer details.",New Order,Save to Database,,
+197,"After an order is received, create an invoice and post a message to Slack.",New Order,Generate Invoice,Notify Slack,
+198,"Whenever a customer places an order, post a message to Slack, insert the record into the database and append a new row to the spreadsheet.",New Order,Notify Slack,Save to Database,Update Spreadsheet
+199,"Once a new order arrives, save the information in the spreadsheet.",New Order,Update Spreadsheet,,
+200,"When an order is created, add the data to the spreadsheet.",New Order,Update Spreadsheet,,
+201,"Every time an order is submitted, produce a billing invoice, save the data to the database and save the information in the spreadsheet.",New Order,Generate Invoice,Save to Database,Update Spreadsheet
+202,"After a purchase is completed, prepare the invoice and store the record.",New Order,Generate Invoice,Save to Database,
+203,"When a customer completes checkout, generate the customer's invoice, insert the record into the database and record the details in the spreadsheet.",New Order,Generate Invoice,Save to Database,Update Spreadsheet
+204,"Whenever an order is confirmed, save the data to the database and add the data to the spreadsheet.",New Order,Save to Database,Update Spreadsheet,
+205,"On new order creation, send a Slack notification, insert the record into the database and update the spreadsheet.",New Order,Notify Slack,Save to Database,Update Spreadsheet
+206,"When a new order is placed, post a message to Slack and append a new row to the spreadsheet.",New Order,Notify Slack,Update Spreadsheet,
+207,"After an order is received, create an invoice, store the record and save the information in the spreadsheet.",New Order,Generate Invoice,Save to Database,Update Spreadsheet
+208,"Whenever a customer places an order, generate an invoice and store the record.",New Order,Generate Invoice,Save to Database,
+209,"Once a new order arrives, create an invoice and post a message to Slack.",New Order,Generate Invoice,Notify Slack,
+210,"When an order is created, prepare the invoice, save the data to the database and save the information in the spreadsheet.",New Order,Generate Invoice,Save to Database,Update Spreadsheet
+211,"Every time an order is submitted, prepare the invoice, send a Slack alert and append a new row to the spreadsheet.",New Order,Generate Invoice,Notify Slack,Update Spreadsheet
+212,"After a purchase is completed, notify the Slack channel and save the information in the spreadsheet.",New Order,Notify Slack,Update Spreadsheet,
+213,"When a customer completes checkout, save the data to the database.",New Order,Save to Database,,
+214,"Whenever an order is confirmed, produce a billing invoice.",New Order,Generate Invoice,,
+215,"On new order creation, produce a billing invoice.",New Order,Generate Invoice,,
+216,"When a new order is placed, notify the Slack channel.",New Order,Notify Slack,,
+217,"After an order is received, notify the Slack channel.",New Order,Notify Slack,,
+218,"Whenever a customer places an order, post a message to Slack and store the information in the database.",New Order,Notify Slack,Save to Database,
+219,"When an order is created, generate an invoice, send a Slack alert and insert the record into the database.",New Order,Generate Invoice,Notify Slack,Save to Database
+220,"Every time an order is submitted, create an invoice, insert the record into the database and record the details in the spreadsheet.",New Order,Generate Invoice,Save to Database,Update Spreadsheet
+221,"After a purchase is completed, notify the Slack channel and append a new row to the spreadsheet.",New Order,Notify Slack,Update Spreadsheet,
+222,"When a customer completes checkout, produce a billing invoice and save the data to the database.",New Order,Generate Invoice,Save to Database,
+223,"Whenever an order is confirmed, alert the team on Slack, insert the record into the database and record the details in the spreadsheet.",New Order,Notify Slack,Save to Database,Update Spreadsheet
+224,"On new order creation, append a new row to the spreadsheet.",New Order,Update Spreadsheet,,
+225,"When a new order is placed, insert the record into the database.",New Order,Save to Database,,
+226,"After an order is received, alert the team on Slack, save the customer details and append a new row to the spreadsheet.",New Order,Notify Slack,Save to Database,Update Spreadsheet
+227,"Whenever a customer places an order, generate an invoice and send a Slack alert.",New Order,Generate Invoice,Notify Slack,
+228,"Once a new order arrives, generate the customer's invoice, save the data to the database and add the data to the spreadsheet.",New Order,Generate Invoice,Save to Database,Update Spreadsheet
+229,"When an order is created, send a Slack notification, save the customer details and update the spreadsheet.",New Order,Notify Slack,Save to Database,Update Spreadsheet
+230,"Every time an order is submitted, generate the customer's invoice and record the details in the spreadsheet.",New Order,Generate Invoice,Update Spreadsheet,
+231,"After a purchase is completed, prepare the invoice, insert the record into the database and add the data to the spreadsheet.",New Order,Generate Invoice,Save to Database,Update Spreadsheet
+232,"When a customer completes checkout, store the record.",New Order,Save to Database,,
+233,"Whenever an order is confirmed, prepare the invoice and post a message to Slack.",New Order,Generate Invoice,Notify Slack,
+234,"On new order creation, produce a billing invoice and notify the Slack channel.",New Order,Generate Invoice,Notify Slack,
+235,"After an order is received, generate an invoice, alert the team on Slack and store the record.",New Order,Generate Invoice,Notify Slack,Save to Database
+236,"Whenever a customer places an order, record the details in the spreadsheet.",New Order,Update Spreadsheet,,
+237,"Once a new order arrives, alert the team on Slack, save the customer details and add the data to the spreadsheet.",New Order,Notify Slack,Save to Database,Update Spreadsheet
+238,"When an order is created, generate the customer's invoice and alert the team on Slack.",New Order,Generate Invoice,Notify Slack,
+239,"Every time an order is submitted, produce a billing invoice, alert the team on Slack and insert the record into the database.",New Order,Generate Invoice,Notify Slack,Save to Database
+240,"After a purchase is completed, save the customer details.",New Order,Save to Database,,
+241,"When a customer completes checkout, post a message to Slack.",New Order,Notify Slack,,
+242,"Whenever an order is confirmed, create an invoice.",New Order,Generate Invoice,,
+243,"On new order creation, alert the team on Slack, store the record and append a new row to the spreadsheet.",New Order,Notify Slack,Save to Database,Update Spreadsheet
+244,"When a new order is placed, produce a billing invoice, store the record and append a new row to the spreadsheet.",New Order,Generate Invoice,Save to Database,Update Spreadsheet
+245,"After an order is received, prepare the invoice and send a Slack notification.",New Order,Generate Invoice,Notify Slack,
+246,"Whenever a customer places an order, prepare the invoice and update the spreadsheet.",New Order,Generate Invoice,Update Spreadsheet,
+247,"Once a new order arrives, notify the Slack channel, insert the record into the database and record the details in the spreadsheet.",New Order,Notify Slack,Save to Database,Update Spreadsheet
+248,"When an order is created, produce a billing invoice.",New Order,Generate Invoice,,
+249,"Every time an order is submitted, store the record.",New Order,Save to Database,,
+250,"After a purchase is completed, prepare the invoice.",New Order,Generate Invoice,,
+251,"Whenever an order is confirmed, generate the customer's invoice.",New Order,Generate Invoice,,
+252,"On new order creation, store the information in the database.",New Order,Save to Database,,
+253,"When a new order is placed, notify the Slack channel and save the data to the database.",New Order,Notify Slack,Save to Database,
+254,"After an order is received, store the record.",New Order,Save to Database,,
+255,"Whenever a customer places an order, generate an invoice and store the information in the database.",New Order,Generate Invoice,Save to Database,
+256,"Once a new order arrives, send a Slack notification.",New Order,Notify Slack,,
+257,"When an order is created, prepare the invoice, notify the Slack channel and add the data to the spreadsheet.",New Order,Generate Invoice,Notify Slack,Update Spreadsheet
+258,"Every time an order is submitted, generate an invoice, post a message to Slack and append a new row to the spreadsheet.",New Order,Generate Invoice,Notify Slack,Update Spreadsheet
+259,"After a purchase is completed, generate the customer's invoice and store the information in the database.",New Order,Generate Invoice,Save to Database,
+260,"When a customer completes checkout, produce a billing invoice, notify the Slack channel and save the customer details.",New Order,Generate Invoice,Notify Slack,Save to Database
+261,"Whenever an order is confirmed, save the customer details and append a new row to the spreadsheet.",New Order,Save to Database,Update Spreadsheet,
+262,"On new order creation, prepare the invoice, send a Slack alert and add the data to the spreadsheet.",New Order,Generate Invoice,Notify Slack,Update Spreadsheet
+263,"When a new order is placed, save the data to the database.",New Order,Save to Database,,
+264,"After an order is received, post a message to Slack, store the record and save the information in the spreadsheet.",New Order,Notify Slack,Save to Database,Update Spreadsheet
+265,"Once a new order arrives, send a Slack notification, insert the record into the database and record the details in the spreadsheet.",New Order,Notify Slack,Save to Database,Update Spreadsheet
+266,"When an order is created, save the customer details and record the details in the spreadsheet.",New Order,Save to Database,Update Spreadsheet,
+267,"Every time an order is submitted, alert the team on Slack and record the details in the spreadsheet.",New Order,Notify Slack,Update Spreadsheet,
+268,"After a purchase is completed, update the spreadsheet.",New Order,Update Spreadsheet,,
+269,"When a customer completes checkout, generate an invoice.",New Order,Generate Invoice,,
+270,"Whenever an order is confirmed, prepare the invoice and send a Slack notification.",New Order,Generate Invoice,Notify Slack,
+271,"On new order creation, generate an invoice, post a message to Slack and save the data to the database.",New Order,Generate Invoice,Notify Slack,Save to Database
+272,"When a new order is placed, prepare the invoice, send a Slack alert and record the details in the spreadsheet.",New Order,Generate Invoice,Notify Slack,Update Spreadsheet
+273,"After an order is received, generate the customer's invoice and send a Slack notification.",New Order,Generate Invoice,Notify Slack,
+274,"Whenever a customer places an order, add the data to the spreadsheet.",New Order,Update Spreadsheet,,
+275,"Once a new order arrives, send a Slack alert.",New Order,Notify Slack,,
+276,"When an order is created, generate the customer's invoice and store the information in the database.",New Order,Generate Invoice,Save to Database,
+277,"Every time an order is submitted, prepare the invoice and notify the Slack channel.",New Order,Generate Invoice,Notify Slack,
+278,"After a purchase is completed, alert the team on Slack.",New Order,Notify Slack,,
+279,"When a customer completes checkout, create an invoice and send a Slack notification.",New Order,Generate Invoice,Notify Slack,
+280,"Whenever an order is confirmed, generate an invoice, notify the Slack channel and save the information in the spreadsheet.",New Order,Generate Invoice,Notify Slack,Update Spreadsheet
+281,"When a new order is placed, prepare the invoice and alert the team on Slack.",New Order,Generate Invoice,Notify Slack,
+282,"After an order is received, generate an invoice, send a Slack notification and add the data to the spreadsheet.",New Order,Generate Invoice,Notify Slack,Update Spreadsheet
+283,"Whenever a customer places an order, prepare the invoice, post a message to Slack and append a new row to the spreadsheet.",New Order,Generate Invoice,Notify Slack,Update Spreadsheet
+284,"Once a new order arrives, save the data to the database and add the data to the spreadsheet.",New Order,Save to Database,Update Spreadsheet,
+285,"When an order is created, generate an invoice, alert the team on Slack and store the record.",New Order,Generate Invoice,Notify Slack,Save to Database
+286,"Every time an order is submitted, create an invoice and post a message to Slack.",New Order,Generate Invoice,Notify Slack,
+287,"After a purchase is completed, prepare the invoice, send a Slack notification and add the data to the spreadsheet.",New Order,Generate Invoice,Notify Slack,Update Spreadsheet
+288,"When a customer completes checkout, notify the Slack channel and save the customer details.",New Order,Notify Slack,Save to Database,
+289,"Whenever an order is confirmed, create an invoice and append a new row to the spreadsheet.",New Order,Generate Invoice,Update Spreadsheet,
+290,"On new order creation, notify the Slack channel, insert the record into the database and update the spreadsheet.",New Order,Notify Slack,Save to Database,Update Spreadsheet
+291,"When payment succeeds, generate an invoice and email the customer.",Payment Success,Generate Invoice,Send Email,
+292,"After a successful payment, prepare the invoice, send a welcome email and append a new row to the spreadsheet.",Payment Success,Generate Invoice,Send Email,Update Spreadsheet
+293,"Whenever a payment is completed, send an email.",Payment Success,Send Email,,
+294,"Once payment is successful, produce a billing invoice, send a welcome email and add the data to the spreadsheet.",Payment Success,Generate Invoice,Send Email,Update Spreadsheet
+295,"When payment is confirmed, send an email notification and update the spreadsheet.",Payment Success,Send Email,Update Spreadsheet,
+296,"After payment confirmation, send an email and record the details in the spreadsheet.",Payment Success,Send Email,Update Spreadsheet,
+297,"Every time a payment succeeds, generate the customer's invoice.",Payment Success,Generate Invoice,,
+298,"When a customer completes payment, prepare the invoice, send an email and add the data to the spreadsheet.",Payment Success,Generate Invoice,Send Email,Update Spreadsheet
+299,"Upon successful payment, prepare the invoice.",Payment Success,Generate Invoice,,
+300,"After receiving payment, generate the customer's invoice.",Payment Success,Generate Invoice,,
+301,"When payment succeeds, update the spreadsheet.",Payment Success,Update Spreadsheet,,
+302,"After a successful payment, append a new row to the spreadsheet.",Payment Success,Update Spreadsheet,,
+303,"Whenever a payment is completed, send an email notification and save the information in the spreadsheet.",Payment Success,Send Email,Update Spreadsheet,
+304,"Once payment is successful, send an email and append a new row to the spreadsheet.",Payment Success,Send Email,Update Spreadsheet,
+305,"When payment is confirmed, notify the customer by email.",Payment Success,Send Email,,
+306,"After payment confirmation, prepare the invoice, send an email notification and update the spreadsheet.",Payment Success,Generate Invoice,Send Email,Update Spreadsheet
+307,"Every time a payment succeeds, send a welcome email and update the spreadsheet.",Payment Success,Send Email,Update Spreadsheet,
+308,"When a customer completes payment, generate an invoice and send an email notification.",Payment Success,Generate Invoice,Send Email,
+309,"Upon successful payment, generate the customer's invoice, send an email notification and update the spreadsheet.",Payment Success,Generate Invoice,Send Email,Update Spreadsheet
+310,"After receiving payment, prepare the invoice and save the information in the spreadsheet.",Payment Success,Generate Invoice,Update Spreadsheet,
+311,"When payment succeeds, generate an invoice and append a new row to the spreadsheet.",Payment Success,Generate Invoice,Update Spreadsheet,
+312,"After a successful payment, send a welcome email.",Payment Success,Send Email,,
+313,"Whenever a payment is completed, create an invoice, notify the customer by email and append a new row to the spreadsheet.",Payment Success,Generate Invoice,Send Email,Update Spreadsheet
+314,"Once payment is successful, prepare the invoice, email the customer and append a new row to the spreadsheet.",Payment Success,Generate Invoice,Send Email,Update Spreadsheet
+315,"When payment is confirmed, prepare the invoice and send a welcome email.",Payment Success,Generate Invoice,Send Email,
+316,"After payment confirmation, prepare the invoice and email the customer.",Payment Success,Generate Invoice,Send Email,
+317,"Every time a payment succeeds, generate an invoice, send an email notification and add the data to the spreadsheet.",Payment Success,Generate Invoice,Send Email,Update Spreadsheet
+318,"When a customer completes payment, send an email and save the information in the spreadsheet.",Payment Success,Send Email,Update Spreadsheet,
+319,"Upon successful payment, prepare the invoice, send an email and save the information in the spreadsheet.",Payment Success,Generate Invoice,Send Email,Update Spreadsheet
+320,"After receiving payment, append a new row to the spreadsheet.",Payment Success,Update Spreadsheet,,
+321,"When payment succeeds, prepare the invoice, send an email and add the data to the spreadsheet.",Payment Success,Generate Invoice,Send Email,Update Spreadsheet
+322,"After a successful payment, create an invoice and send an email.",Payment Success,Generate Invoice,Send Email,
+323,"Whenever a payment is completed, prepare the invoice.",Payment Success,Generate Invoice,,
+324,"Once payment is successful, save the information in the spreadsheet.",Payment Success,Update Spreadsheet,,
+325,"When payment is confirmed, generate the customer's invoice, send an email and save the information in the spreadsheet.",Payment Success,Generate Invoice,Send Email,Update Spreadsheet
+326,"After payment confirmation, create an invoice and save the information in the spreadsheet.",Payment Success,Generate Invoice,Update Spreadsheet,
+327,"Every time a payment succeeds, append a new row to the spreadsheet.",Payment Success,Update Spreadsheet,,
+328,"When a customer completes payment, email the customer.",Payment Success,Send Email,,
+329,"Upon successful payment, generate the customer's invoice, email the customer and append a new row to the spreadsheet.",Payment Success,Generate Invoice,Send Email,Update Spreadsheet
+330,"After receiving payment, add the data to the spreadsheet.",Payment Success,Update Spreadsheet,,
+331,"When payment succeeds, prepare the invoice and send an email notification.",Payment Success,Generate Invoice,Send Email,
+332,"After a successful payment, notify the customer by email and save the information in the spreadsheet.",Payment Success,Send Email,Update Spreadsheet,
+333,"Whenever a payment is completed, generate the customer's invoice, send an email and record the details in the spreadsheet.",Payment Success,Generate Invoice,Send Email,Update Spreadsheet
+334,"Once payment is successful, append a new row to the spreadsheet.",Payment Success,Update Spreadsheet,,
+335,"When payment is confirmed, generate the customer's invoice and update the spreadsheet.",Payment Success,Generate Invoice,Update Spreadsheet,
+336,"After payment confirmation, prepare the invoice and append a new row to the spreadsheet.",Payment Success,Generate Invoice,Update Spreadsheet,
+337,"Every time a payment succeeds, create an invoice, notify the customer by email and record the details in the spreadsheet.",Payment Success,Generate Invoice,Send Email,Update Spreadsheet
+338,"When a customer completes payment, send a welcome email.",Payment Success,Send Email,,
+339,"Upon successful payment, send an email and append a new row to the spreadsheet.",Payment Success,Send Email,Update Spreadsheet,
+340,"After receiving payment, send an email.",Payment Success,Send Email,,
+341,"When payment succeeds, send a welcome email.",Payment Success,Send Email,,
+342,"After a successful payment, create an invoice, send a welcome email and record the details in the spreadsheet.",Payment Success,Generate Invoice,Send Email,Update Spreadsheet
+343,"Whenever a payment is completed, produce a billing invoice and append a new row to the spreadsheet.",Payment Success,Generate Invoice,Update Spreadsheet,
+344,"Once payment is successful, prepare the invoice, send an email and add the data to the spreadsheet.",Payment Success,Generate Invoice,Send Email,Update Spreadsheet
+345,"When payment is confirmed, prepare the invoice, send an email and record the details in the spreadsheet.",Payment Success,Generate Invoice,Send Email,Update Spreadsheet
+346,"After payment confirmation, create an invoice.",Payment Success,Generate Invoice,,
+347,"When a customer completes payment, generate the customer's invoice and save the information in the spreadsheet.",Payment Success,Generate Invoice,Update Spreadsheet,
+348,"Upon successful payment, add the data to the spreadsheet.",Payment Success,Update Spreadsheet,,
+349,"After receiving payment, generate the customer's invoice and email the customer.",Payment Success,Generate Invoice,Send Email,
+350,"When payment succeeds, append a new row to the spreadsheet.",Payment Success,Update Spreadsheet,,
+351,"After a successful payment, update the spreadsheet.",Payment Success,Update Spreadsheet,,
+352,"Whenever a payment is completed, produce a billing invoice, notify the customer by email and update the spreadsheet.",Payment Success,Generate Invoice,Send Email,Update Spreadsheet
+353,"Once payment is successful, generate an invoice, email the customer and update the spreadsheet.",Payment Success,Generate Invoice,Send Email,Update Spreadsheet
+354,"When payment is confirmed, generate the customer's invoice and record the details in the spreadsheet.",Payment Success,Generate Invoice,Update Spreadsheet,
+355,"After payment confirmation, prepare the invoice.",Payment Success,Generate Invoice,,
+356,"Every time a payment succeeds, produce a billing invoice, send an email and add the data to the spreadsheet.",Payment Success,Generate Invoice,Send Email,Update Spreadsheet
+357,"When a customer completes payment, append a new row to the spreadsheet.",Payment Success,Update Spreadsheet,,
+358,"Upon successful payment, send an email.",Payment Success,Send Email,,
+359,"After receiving payment, generate an invoice.",Payment Success,Generate Invoice,,
+360,"When payment succeeds, send an email notification and append a new row to the spreadsheet.",Payment Success,Send Email,Update Spreadsheet,
+361,"After a successful payment, prepare the invoice and record the details in the spreadsheet.",Payment Success,Generate Invoice,Update Spreadsheet,
+362,"Whenever a payment is completed, record the details in the spreadsheet.",Payment Success,Update Spreadsheet,,
+363,"Once payment is successful, produce a billing invoice and notify the customer by email.",Payment Success,Generate Invoice,Send Email,
+364,"When payment is confirmed, create an invoice, notify the customer by email and append a new row to the spreadsheet.",Payment Success,Generate Invoice,Send Email,Update Spreadsheet
+365,"After payment confirmation, send a welcome email and append a new row to the spreadsheet.",Payment Success,Send Email,Update Spreadsheet,
+366,"Every time a payment succeeds, send an email notification.",Payment Success,Send Email,,
+367,"When a customer completes payment, record the details in the spreadsheet.",Payment Success,Update Spreadsheet,,
+368,"Upon successful payment, prepare the invoice and record the details in the spreadsheet.",Payment Success,Generate Invoice,Update Spreadsheet,
+369,"After receiving payment, send an email and append a new row to the spreadsheet.",Payment Success,Send Email,Update Spreadsheet,
+370,"After a successful payment, generate an invoice and notify the customer by email.",Payment Success,Generate Invoice,Send Email,
+371,"Whenever a payment is completed, generate an invoice and add the data to the spreadsheet.",Payment Success,Generate Invoice,Update Spreadsheet,
+372,"Once payment is successful, create an invoice, send a welcome email and add the data to the spreadsheet.",Payment Success,Generate Invoice,Send Email,Update Spreadsheet
+373,"When payment is confirmed, generate the customer's invoice, send a welcome email and save the information in the spreadsheet.",Payment Success,Generate Invoice,Send Email,Update Spreadsheet
+374,"After payment confirmation, append a new row to the spreadsheet.",Payment Success,Update Spreadsheet,,
+375,"Every time a payment succeeds, send a welcome email and save the information in the spreadsheet.",Payment Success,Send Email,Update Spreadsheet,
+376,"Upon successful payment, send an email and update the spreadsheet.",Payment Success,Send Email,Update Spreadsheet,
+377,"When payment succeeds, send an email notification and update the spreadsheet.",Payment Success,Send Email,Update Spreadsheet,
+378,"After a successful payment, send an email and save the information in the spreadsheet.",Payment Success,Send Email,Update Spreadsheet,
+379,"Whenever a payment is completed, send an email and update the spreadsheet.",Payment Success,Send Email,Update Spreadsheet,
+380,"Once payment is successful, produce a billing invoice.",Payment Success,Generate Invoice,,
+381,"When payment is confirmed, append a new row to the spreadsheet.",Payment Success,Update Spreadsheet,,
+382,"After payment confirmation, record the details in the spreadsheet.",Payment Success,Update Spreadsheet,,
+383,"Every time a payment succeeds, prepare the invoice, send an email and add the data to the spreadsheet.",Payment Success,Generate Invoice,Send Email,Update Spreadsheet
+384,"When a customer completes payment, generate an invoice and add the data to the spreadsheet.",Payment Success,Generate Invoice,Update Spreadsheet,
+385,"Upon successful payment, produce a billing invoice.",Payment Success,Generate Invoice,,
+386,"After receiving payment, send an email notification.",Payment Success,Send Email,,
+387,"When payment fails, create a customer support case, notify the Slack channel and send a welcome email.",Payment Failed,Create Ticket,Notify Slack,Send Email
+388,"After a failed payment, create a customer support case and post a message to Slack.",Payment Failed,Create Ticket,Notify Slack,
+389,"Whenever a payment is declined, open a support ticket and email the customer.",Payment Failed,Create Ticket,Send Email,
+390,"If a payment is unsuccessful, create a customer support case, alert the team on Slack and send an email.",Payment Failed,Create Ticket,Notify Slack,Send Email
+391,"When a transaction fails, log a support request, send a Slack alert and send a welcome email.",Payment Failed,Create Ticket,Notify Slack,Send Email
+392,"After payment rejection, open a support ticket.",Payment Failed,Create Ticket,,
+393,"Upon payment failure, generate a help desk ticket and send an email.",Payment Failed,Create Ticket,Send Email,
+394,"When the payment cannot be processed, create a support ticket and alert the team on Slack.",Payment Failed,Create Ticket,Notify Slack,
+395,"If the transaction is declined, create a customer support case.",Payment Failed,Create Ticket,,
+396,"Whenever payment is not completed, send a Slack alert and send an email notification.",Payment Failed,Notify Slack,Send Email,
+397,"When payment fails, open a support ticket.",Payment Failed,Create Ticket,,
+398,"After a failed payment, create a customer support case, send a Slack alert and email the customer.",Payment Failed,Create Ticket,Notify Slack,Send Email
+399,"Whenever a payment is declined, create a support ticket, send a Slack alert and email the customer.",Payment Failed,Create Ticket,Notify Slack,Send Email
+400,"If a payment is unsuccessful, log a support request, send a Slack alert and email the customer.",Payment Failed,Create Ticket,Notify Slack,Send Email
+401,"When a transaction fails, log a support request, alert the team on Slack and notify the customer by email.",Payment Failed,Create Ticket,Notify Slack,Send Email
+402,"After payment rejection, create a support ticket.",Payment Failed,Create Ticket,,
+403,"Upon payment failure, post a message to Slack.",Payment Failed,Notify Slack,,
+404,"When the payment cannot be processed, alert the team on Slack and send an email notification.",Payment Failed,Notify Slack,Send Email,
+405,"If the transaction is declined, alert the team on Slack.",Payment Failed,Notify Slack,,
+406,"Whenever payment is not completed, generate a help desk ticket, send a Slack alert and send an email notification.",Payment Failed,Create Ticket,Notify Slack,Send Email
+407,"When payment fails, send a Slack notification.",Payment Failed,Notify Slack,,
+408,"After a failed payment, post a message to Slack and send an email.",Payment Failed,Notify Slack,Send Email,
+409,"Whenever a payment is declined, send a welcome email.",Payment Failed,Send Email,,
+410,"If a payment is unsuccessful, open a support ticket and send a Slack notification.",Payment Failed,Create Ticket,Notify Slack,
+411,"When a transaction fails, open a support ticket and send a Slack notification.",Payment Failed,Create Ticket,Notify Slack,
+412,"After payment rejection, log a support request and alert the team on Slack.",Payment Failed,Create Ticket,Notify Slack,
+413,"Upon payment failure, log a support request and send an email notification.",Payment Failed,Create Ticket,Send Email,
+414,"When the payment cannot be processed, create a customer support case and email the customer.",Payment Failed,Create Ticket,Send Email,
+415,"If the transaction is declined, email the customer.",Payment Failed,Send Email,,
+416,"Whenever payment is not completed, generate a help desk ticket and send a Slack alert.",Payment Failed,Create Ticket,Notify Slack,
+417,"When payment fails, notify the customer by email.",Payment Failed,Send Email,,
+418,"After a failed payment, alert the team on Slack.",Payment Failed,Notify Slack,,
+419,"Whenever a payment is declined, post a message to Slack and send a welcome email.",Payment Failed,Notify Slack,Send Email,
+420,"If a payment is unsuccessful, create a customer support case, alert the team on Slack and send a welcome email.",Payment Failed,Create Ticket,Notify Slack,Send Email
+421,"When a transaction fails, create a customer support case and alert the team on Slack.",Payment Failed,Create Ticket,Notify Slack,
+422,"After payment rejection, create a support ticket, post a message to Slack and email the customer.",Payment Failed,Create Ticket,Notify Slack,Send Email
+423,"Upon payment failure, open a support ticket and send a Slack notification.",Payment Failed,Create Ticket,Notify Slack,
+424,"When the payment cannot be processed, create a support ticket, notify the Slack channel and send an email.",Payment Failed,Create Ticket,Notify Slack,Send Email
+425,"If the transaction is declined, open a support ticket, send a Slack alert and send an email notification.",Payment Failed,Create Ticket,Notify Slack,Send Email
+426,"Whenever payment is not completed, send a Slack alert.",Payment Failed,Notify Slack,,
+427,"When payment fails, send a Slack alert and email the customer.",Payment Failed,Notify Slack,Send Email,
+428,"After a failed payment, log a support request, notify the Slack channel and email the customer.",Payment Failed,Create Ticket,Notify Slack,Send Email
+429,"Whenever a payment is declined, log a support request and send an email notification.",Payment Failed,Create Ticket,Send Email,
+430,"If a payment is unsuccessful, create a customer support case and notify the customer by email.",Payment Failed,Create Ticket,Send Email,
+431,"When a transaction fails, create a support ticket and send an email notification.",Payment Failed,Create Ticket,Send Email,
+432,"After payment rejection, send a Slack notification and send an email.",Payment Failed,Notify Slack,Send Email,
+433,"Upon payment failure, create a support ticket.",Payment Failed,Create Ticket,,
+434,"When the payment cannot be processed, notify the customer by email.",Payment Failed,Send Email,,
+435,"If the transaction is declined, post a message to Slack and send an email.",Payment Failed,Notify Slack,Send Email,
+436,"Whenever payment is not completed, create a support ticket and send a Slack notification.",Payment Failed,Create Ticket,Notify Slack,
+437,"When payment fails, create a customer support case, post a message to Slack and email the customer.",Payment Failed,Create Ticket,Notify Slack,Send Email
+438,"After a failed payment, send a Slack alert.",Payment Failed,Notify Slack,,
+439,"Whenever a payment is declined, generate a help desk ticket and send a Slack alert.",Payment Failed,Create Ticket,Notify Slack,
+440,"If a payment is unsuccessful, generate a help desk ticket and send an email notification.",Payment Failed,Create Ticket,Send Email,
+441,"When a transaction fails, alert the team on Slack and send an email.",Payment Failed,Notify Slack,Send Email,
+442,"After payment rejection, log a support request, alert the team on Slack and send an email notification.",Payment Failed,Create Ticket,Notify Slack,Send Email
+443,"Upon payment failure, create a customer support case, send a Slack alert and notify the customer by email.",Payment Failed,Create Ticket,Notify Slack,Send Email
+444,"When the payment cannot be processed, alert the team on Slack and send a welcome email.",Payment Failed,Notify Slack,Send Email,
+445,"If the transaction is declined, generate a help desk ticket and notify the customer by email.",Payment Failed,Create Ticket,Send Email,
+446,"Whenever payment is not completed, open a support ticket, send a Slack alert and email the customer.",Payment Failed,Create Ticket,Notify Slack,Send Email
+447,"When payment fails, create a support ticket, send a Slack alert and send an email notification.",Payment Failed,Create Ticket,Notify Slack,Send Email
+448,"After a failed payment, send a welcome email.",Payment Failed,Send Email,,
+449,"Whenever a payment is declined, create a support ticket, notify the Slack channel and notify the customer by email.",Payment Failed,Create Ticket,Notify Slack,Send Email
+450,"If a payment is unsuccessful, create a support ticket and send a Slack notification.",Payment Failed,Create Ticket,Notify Slack,
+451,"When a transaction fails, open a support ticket.",Payment Failed,Create Ticket,,
+452,"After payment rejection, log a support request and send a Slack notification.",Payment Failed,Create Ticket,Notify Slack,
+453,"Upon payment failure, create a support ticket and notify the Slack channel.",Payment Failed,Create Ticket,Notify Slack,
+454,"When the payment cannot be processed, open a support ticket, post a message to Slack and send an email.",Payment Failed,Create Ticket,Notify Slack,Send Email
+455,"If the transaction is declined, post a message to Slack.",Payment Failed,Notify Slack,,
+456,"Whenever payment is not completed, generate a help desk ticket.",Payment Failed,Create Ticket,,
+457,"When payment fails, email the customer.",Payment Failed,Send Email,,
+458,"After a failed payment, generate a help desk ticket, post a message to Slack and send an email notification.",Payment Failed,Create Ticket,Notify Slack,Send Email
+459,"Whenever a payment is declined, generate a help desk ticket, send a Slack notification and send a welcome email.",Payment Failed,Create Ticket,Notify Slack,Send Email
+460,"If a payment is unsuccessful, alert the team on Slack and send an email.",Payment Failed,Notify Slack,Send Email,
+461,"When a transaction fails, generate a help desk ticket.",Payment Failed,Create Ticket,,
+462,"After payment rejection, open a support ticket and send an email notification.",Payment Failed,Create Ticket,Send Email,
+463,"Upon payment failure, create a support ticket, post a message to Slack and send a welcome email.",Payment Failed,Create Ticket,Notify Slack,Send Email
+464,"Whenever payment is not completed, alert the team on Slack.",Payment Failed,Notify Slack,,
+465,"When payment fails, alert the team on Slack and email the customer.",Payment Failed,Notify Slack,Send Email,
+466,"After a failed payment, log a support request, alert the team on Slack and send an email.",Payment Failed,Create Ticket,Notify Slack,Send Email
+467,"Whenever a payment is declined, create a support ticket and alert the team on Slack.",Payment Failed,Create Ticket,Notify Slack,
+468,"If a payment is unsuccessful, open a support ticket and send an email.",Payment Failed,Create Ticket,Send Email,
+469,"When a transaction fails, send a Slack alert and email the customer.",Payment Failed,Notify Slack,Send Email,
+470,"After payment rejection, create a customer support case and send a Slack notification.",Payment Failed,Create Ticket,Notify Slack,
+471,"Upon payment failure, create a customer support case.",Payment Failed,Create Ticket,,
+472,"When the payment cannot be processed, log a support request.",Payment Failed,Create Ticket,,
+473,"If the transaction is declined, create a customer support case, notify the Slack channel and send a welcome email.",Payment Failed,Create Ticket,Notify Slack,Send Email
+474,"Whenever payment is not completed, open a support ticket, alert the team on Slack and send an email notification.",Payment Failed,Create Ticket,Notify Slack,Send Email
+475,"When payment fails, create a customer support case and notify the customer by email.",Payment Failed,Create Ticket,Send Email,
+476,"After a failed payment, log a support request.",Payment Failed,Create Ticket,,
+477,"Whenever a payment is declined, send a Slack notification.",Payment Failed,Notify Slack,,
+478,"If a payment is unsuccessful, create a customer support case, post a message to Slack and email the customer.",Payment Failed,Create Ticket,Notify Slack,Send Email
+479,"When a transaction fails, create a support ticket, send a Slack notification and send an email notification.",Payment Failed,Create Ticket,Notify Slack,Send Email
+480,"After payment rejection, notify the customer by email.",Payment Failed,Send Email,,
+481,"Upon payment failure, create a customer support case and send a welcome email.",Payment Failed,Create Ticket,Send Email,
+482,"When the payment cannot be processed, notify the Slack channel.",Payment Failed,Notify Slack,,
+483,"If the transaction is declined, send a Slack notification and notify the customer by email.",Payment Failed,Notify Slack,Send Email,
+484,"Whenever payment is not completed, log a support request and post a message to Slack.",Payment Failed,Create Ticket,Notify Slack,
+485,"When an order is cancelled, send a Slack alert.",Order Cancelled,Notify Slack,,
+486,"After an order cancellation, alert the team on Slack.",Order Cancelled,Notify Slack,,
+487,"Whenever a customer cancels an order, send an email notification.",Order Cancelled,Send Email,,
+488,"If an order is cancelled, send a Slack notification and send a welcome email.",Order Cancelled,Notify Slack,Send Email,
+489,"When a purchase is cancelled, append a new row to the spreadsheet.",Order Cancelled,Update Spreadsheet,,
+490,"After an order is terminated, send a Slack notification, send an email and append a new row to the spreadsheet.",Order Cancelled,Notify Slack,Send Email,Update Spreadsheet
+491,"Upon order cancellation, send an email and update the spreadsheet.",Order Cancelled,Send Email,Update Spreadsheet,
+492,"Whenever an order gets cancelled, post a message to Slack.",Order Cancelled,Notify Slack,,
+493,"If a customer cancels their order, notify the Slack channel, send a welcome email and save the information in the spreadsheet.",Order Cancelled,Notify Slack,Send Email,Update Spreadsheet
+494,"On order cancellation, save the information in the spreadsheet.",Order Cancelled,Update Spreadsheet,,
+495,"When an order is cancelled, notify the Slack channel, notify the customer by email and append a new row to the spreadsheet.",Order Cancelled,Notify Slack,Send Email,Update Spreadsheet
+496,"After an order cancellation, send a Slack notification.",Order Cancelled,Notify Slack,,
+497,"If an order is cancelled, send an email notification and save the information in the spreadsheet.",Order Cancelled,Send Email,Update Spreadsheet,
+498,"When a purchase is cancelled, send a Slack notification, send an email notification and add the data to the spreadsheet.",Order Cancelled,Notify Slack,Send Email,Update Spreadsheet
+499,"After an order is terminated, notify the Slack channel and save the information in the spreadsheet.",Order Cancelled,Notify Slack,Update Spreadsheet,
+500,"Upon order cancellation, send a Slack alert, notify the customer by email and update the spreadsheet.",Order Cancelled,Notify Slack,Send Email,Update Spreadsheet
+501,"Whenever an order gets cancelled, send a Slack alert and record the details in the spreadsheet.",Order Cancelled,Notify Slack,Update Spreadsheet,
+502,"If a customer cancels their order, alert the team on Slack, notify the customer by email and add the data to the spreadsheet.",Order Cancelled,Notify Slack,Send Email,Update Spreadsheet
+503,"On order cancellation, alert the team on Slack, send an email and append a new row to the spreadsheet.",Order Cancelled,Notify Slack,Send Email,Update Spreadsheet
+504,"When an order is cancelled, post a message to Slack.",Order Cancelled,Notify Slack,,
+505,"After an order cancellation, post a message to Slack and send an email.",Order Cancelled,Notify Slack,Send Email,
+506,"Whenever a customer cancels an order, send a welcome email and append a new row to the spreadsheet.",Order Cancelled,Send Email,Update Spreadsheet,
+507,"If an order is cancelled, notify the Slack channel and email the customer.",Order Cancelled,Notify Slack,Send Email,
+508,"When a purchase is cancelled, notify the Slack channel and send an email.",Order Cancelled,Notify Slack,Send Email,
+509,"After an order is terminated, send a Slack notification, email the customer and record the details in the spreadsheet.",Order Cancelled,Notify Slack,Send Email,Update Spreadsheet
+510,"Upon order cancellation, send an email.",Order Cancelled,Send Email,,
+511,"Whenever an order gets cancelled, send a Slack alert, send an email and append a new row to the spreadsheet.",Order Cancelled,Notify Slack,Send Email,Update Spreadsheet
+512,"If a customer cancels their order, alert the team on Slack.",Order Cancelled,Notify Slack,,
+513,"On order cancellation, send a Slack alert and record the details in the spreadsheet.",Order Cancelled,Notify Slack,Update Spreadsheet,
+514,"When an order is cancelled, send a Slack alert and append a new row to the spreadsheet.",Order Cancelled,Notify Slack,Update Spreadsheet,
+515,"After an order cancellation, email the customer and add the data to the spreadsheet.",Order Cancelled,Send Email,Update Spreadsheet,
+516,"Whenever a customer cancels an order, notify the Slack channel and save the information in the spreadsheet.",Order Cancelled,Notify Slack,Update Spreadsheet,
+517,"If an order is cancelled, send a Slack notification.",Order Cancelled,Notify Slack,,
+518,"When a purchase is cancelled, save the information in the spreadsheet.",Order Cancelled,Update Spreadsheet,,
+519,"After an order is terminated, send a Slack notification, send an email and record the details in the spreadsheet.",Order Cancelled,Notify Slack,Send Email,Update Spreadsheet
+520,"Upon order cancellation, save the information in the spreadsheet.",Order Cancelled,Update Spreadsheet,,
+521,"Whenever an order gets cancelled, save the information in the spreadsheet.",Order Cancelled,Update Spreadsheet,,
+522,"If a customer cancels their order, post a message to Slack, notify the customer by email and append a new row to the spreadsheet.",Order Cancelled,Notify Slack,Send Email,Update Spreadsheet
+523,"On order cancellation, alert the team on Slack.",Order Cancelled,Notify Slack,,
+524,"When an order is cancelled, send an email notification.",Order Cancelled,Send Email,,
+525,"After an order cancellation, send a Slack alert and send a welcome email.",Order Cancelled,Notify Slack,Send Email,
+526,"Whenever a customer cancels an order, notify the Slack channel.",Order Cancelled,Notify Slack,,
+527,"If an order is cancelled, add the data to the spreadsheet.",Order Cancelled,Update Spreadsheet,,
+528,"When a purchase is cancelled, notify the Slack channel, send an email and save the information in the spreadsheet.",Order Cancelled,Notify Slack,Send Email,Update Spreadsheet
+529,"After an order is terminated, send an email notification and save the information in the spreadsheet.",Order Cancelled,Send Email,Update Spreadsheet,
+530,"Upon order cancellation, notify the Slack channel and update the spreadsheet.",Order Cancelled,Notify Slack,Update Spreadsheet,
+531,"Whenever an order gets cancelled, notify the Slack channel, send an email notification and record the details in the spreadsheet.",Order Cancelled,Notify Slack,Send Email,Update Spreadsheet
+532,"If a customer cancels their order, send a Slack notification, send a welcome email and update the spreadsheet.",Order Cancelled,Notify Slack,Send Email,Update Spreadsheet
+533,"On order cancellation, send a Slack alert, send an email notification and record the details in the spreadsheet.",Order Cancelled,Notify Slack,Send Email,Update Spreadsheet
+534,"When an order is cancelled, notify the Slack channel and record the details in the spreadsheet.",Order Cancelled,Notify Slack,Update Spreadsheet,
+535,"After an order cancellation, send an email and record the details in the spreadsheet.",Order Cancelled,Send Email,Update Spreadsheet,
+536,"Whenever a customer cancels an order, post a message to Slack, notify the customer by email and append a new row to the spreadsheet.",Order Cancelled,Notify Slack,Send Email,Update Spreadsheet
+537,"If an order is cancelled, send a Slack notification, send a welcome email and append a new row to the spreadsheet.",Order Cancelled,Notify Slack,Send Email,Update Spreadsheet
+538,"When a purchase is cancelled, send a Slack alert and update the spreadsheet.",Order Cancelled,Notify Slack,Update Spreadsheet,
+539,"After an order is terminated, send a Slack alert, notify the customer by email and record the details in the spreadsheet.",Order Cancelled,Notify Slack,Send Email,Update Spreadsheet
+540,"Upon order cancellation, email the customer.",Order Cancelled,Send Email,,
+541,"Whenever an order gets cancelled, alert the team on Slack, send a welcome email and add the data to the spreadsheet.",Order Cancelled,Notify Slack,Send Email,Update Spreadsheet
+542,"If a customer cancels their order, alert the team on Slack, send an email and save the information in the spreadsheet.",Order Cancelled,Notify Slack,Send Email,Update Spreadsheet
+543,"On order cancellation, post a message to Slack.",Order Cancelled,Notify Slack,,
+544,"When an order is cancelled, send a Slack notification, send a welcome email and save the information in the spreadsheet.",Order Cancelled,Notify Slack,Send Email,Update Spreadsheet
+545,"After an order cancellation, post a message to Slack, send an email and update the spreadsheet.",Order Cancelled,Notify Slack,Send Email,Update Spreadsheet
+546,"Whenever a customer cancels an order, alert the team on Slack and update the spreadsheet.",Order Cancelled,Notify Slack,Update Spreadsheet,
+547,"If an order is cancelled, send a Slack notification, email the customer and save the information in the spreadsheet.",Order Cancelled,Notify Slack,Send Email,Update Spreadsheet
+548,"When a purchase is cancelled, send an email notification and append a new row to the spreadsheet.",Order Cancelled,Send Email,Update Spreadsheet,
+549,"After an order is terminated, alert the team on Slack.",Order Cancelled,Notify Slack,,
+550,"Upon order cancellation, notify the Slack channel.",Order Cancelled,Notify Slack,,
+551,"Whenever an order gets cancelled, add the data to the spreadsheet.",Order Cancelled,Update Spreadsheet,,
+552,"If a customer cancels their order, post a message to Slack and email the customer.",Order Cancelled,Notify Slack,Send Email,
+553,"On order cancellation, notify the Slack channel and email the customer.",Order Cancelled,Notify Slack,Send Email,
+554,"When an order is cancelled, notify the Slack channel and add the data to the spreadsheet.",Order Cancelled,Notify Slack,Update Spreadsheet,
+555,"After an order cancellation, notify the customer by email.",Order Cancelled,Send Email,,
+556,"Whenever a customer cancels an order, notify the Slack channel and update the spreadsheet.",Order Cancelled,Notify Slack,Update Spreadsheet,
+557,"If an order is cancelled, save the information in the spreadsheet.",Order Cancelled,Update Spreadsheet,,
+558,"When a purchase is cancelled, send a Slack alert.",Order Cancelled,Notify Slack,,
+559,"After an order is terminated, email the customer and append a new row to the spreadsheet.",Order Cancelled,Send Email,Update Spreadsheet,
+560,"Upon order cancellation, send a Slack alert and send an email notification.",Order Cancelled,Notify Slack,Send Email,
+561,"If a customer cancels their order, email the customer.",Order Cancelled,Send Email,,
+562,"On order cancellation, send a Slack notification and update the spreadsheet.",Order Cancelled,Notify Slack,Update Spreadsheet,
+563,"When an order is cancelled, record the details in the spreadsheet.",Order Cancelled,Update Spreadsheet,,
+564,"After an order cancellation, notify the Slack channel and record the details in the spreadsheet.",Order Cancelled,Notify Slack,Update Spreadsheet,
+565,"Whenever a customer cancels an order, send an email notification and save the information in the spreadsheet.",Order Cancelled,Send Email,Update Spreadsheet,
+566,"If an order is cancelled, update the spreadsheet.",Order Cancelled,Update Spreadsheet,,
+567,"When a purchase is cancelled, update the spreadsheet.",Order Cancelled,Update Spreadsheet,,
+568,"After an order is terminated, alert the team on Slack and append a new row to the spreadsheet.",Order Cancelled,Notify Slack,Update Spreadsheet,
+569,"Upon order cancellation, email the customer and record the details in the spreadsheet.",Order Cancelled,Send Email,Update Spreadsheet,
+570,"Whenever an order gets cancelled, alert the team on Slack, send an email and append a new row to the spreadsheet.",Order Cancelled,Notify Slack,Send Email,Update Spreadsheet
+571,"If a customer cancels their order, send a Slack alert and add the data to the spreadsheet.",Order Cancelled,Notify Slack,Update Spreadsheet,
+572,"On order cancellation, post a message to Slack and record the details in the spreadsheet.",Order Cancelled,Notify Slack,Update Spreadsheet,
+573,"When an order is cancelled, send a Slack notification.",Order Cancelled,Notify Slack,,
+574,"After an order cancellation, post a message to Slack, send an email and append a new row to the spreadsheet.",Order Cancelled,Notify Slack,Send Email,Update Spreadsheet
+575,"Whenever a customer cancels an order, post a message to Slack and notify the customer by email.",Order Cancelled,Notify Slack,Send Email,
+576,"If an order is cancelled, alert the team on Slack.",Order Cancelled,Notify Slack,,
+577,"When a purchase is cancelled, add the data to the spreadsheet.",Order Cancelled,Update Spreadsheet,,
+578,"After an order is terminated, post a message to Slack, send an email notification and append a new row to the spreadsheet.",Order Cancelled,Notify Slack,Send Email,Update Spreadsheet
+579,"Upon order cancellation, alert the team on Slack, send an email notification and save the information in the spreadsheet.",Order Cancelled,Notify Slack,Send Email,Update Spreadsheet
+580,"Whenever an order gets cancelled, alert the team on Slack, send an email and save the information in the spreadsheet.",Order Cancelled,Notify Slack,Send Email,Update Spreadsheet
+581,"If a customer cancels their order, post a message to Slack.",Order Cancelled,Notify Slack,,
+582,"On order cancellation, send a welcome email and update the spreadsheet.",Order Cancelled,Send Email,Update Spreadsheet,
+583,"When a contact form is submitted, post a message to Slack and email the customer.",Contact Form Submitted,Notify Slack,Send Email,
+584,"After a customer submits the contact form, generate a help desk ticket and send a welcome email.",Contact Form Submitted,Create Ticket,Send Email,
+585,"Whenever someone fills out the contact form, log a support request and send a welcome email.",Contact Form Submitted,Create Ticket,Send Email,
+586,"Once a contact request is submitted, send a Slack notification.",Contact Form Submitted,Notify Slack,,
+587,"When a visitor sends a contact request, log a support request and send a Slack notification.",Contact Form Submitted,Create Ticket,Notify Slack,
+588,"After receiving a contact form, create a support ticket, post a message to Slack and notify the customer by email.",Contact Form Submitted,Create Ticket,Notify Slack,Send Email
+589,"Whenever a contact message is received, create a support ticket and send a welcome email.",Contact Form Submitted,Create Ticket,Send Email,
+590,"When a customer submits an enquiry, create a support ticket.",Contact Form Submitted,Create Ticket,,
+591,"Upon contact form submission, create a customer support case, send a Slack notification and email the customer.",Contact Form Submitted,Create Ticket,Notify Slack,Send Email
+592,"Every time a contact form is completed, log a support request, send a Slack notification and send an email.",Contact Form Submitted,Create Ticket,Notify Slack,Send Email
+593,"When a contact form is submitted, create a support ticket, send a Slack alert and send an email.",Contact Form Submitted,Create Ticket,Notify Slack,Send Email
+594,"After a customer submits the contact form, log a support request and notify the Slack channel.",Contact Form Submitted,Create Ticket,Notify Slack,
+595,"Whenever someone fills out the contact form, create a support ticket, send a Slack alert and send a welcome email.",Contact Form Submitted,Create Ticket,Notify Slack,Send Email
+596,"Once a contact request is submitted, open a support ticket, post a message to Slack and send a welcome email.",Contact Form Submitted,Create Ticket,Notify Slack,Send Email
+597,"When a visitor sends a contact request, create a customer support case and alert the team on Slack.",Contact Form Submitted,Create Ticket,Notify Slack,
+598,"After receiving a contact form, generate a help desk ticket, alert the team on Slack and notify the customer by email.",Contact Form Submitted,Create Ticket,Notify Slack,Send Email
+599,"Whenever a contact message is received, open a support ticket, alert the team on Slack and send a welcome email.",Contact Form Submitted,Create Ticket,Notify Slack,Send Email
+600,"Upon contact form submission, open a support ticket.",Contact Form Submitted,Create Ticket,,
+601,"Every time a contact form is completed, create a customer support case, post a message to Slack and notify the customer by email.",Contact Form Submitted,Create Ticket,Notify Slack,Send Email
+602,"When a contact form is submitted, create a customer support case.",Contact Form Submitted,Create Ticket,,
+603,"After a customer submits the contact form, log a support request, alert the team on Slack and send an email.",Contact Form Submitted,Create Ticket,Notify Slack,Send Email
+604,"Whenever someone fills out the contact form, log a support request.",Contact Form Submitted,Create Ticket,,
+605,"Once a contact request is submitted, log a support request, send a Slack notification and send an email.",Contact Form Submitted,Create Ticket,Notify Slack,Send Email
+606,"When a visitor sends a contact request, log a support request and post a message to Slack.",Contact Form Submitted,Create Ticket,Notify Slack,
+607,"After receiving a contact form, log a support request and send a Slack notification.",Contact Form Submitted,Create Ticket,Notify Slack,
+608,"Whenever a contact message is received, notify the Slack channel.",Contact Form Submitted,Notify Slack,,
+609,"Upon contact form submission, open a support ticket and notify the customer by email.",Contact Form Submitted,Create Ticket,Send Email,
+610,"Every time a contact form is completed, create a customer support case, notify the Slack channel and email the customer.",Contact Form Submitted,Create Ticket,Notify Slack,Send Email
+611,"When a contact form is submitted, create a customer support case, send a Slack notification and notify the customer by email.",Contact Form Submitted,Create Ticket,Notify Slack,Send Email
+612,"After a customer submits the contact form, send a Slack notification.",Contact Form Submitted,Notify Slack,,
+613,"Whenever someone fills out the contact form, generate a help desk ticket and email the customer.",Contact Form Submitted,Create Ticket,Send Email,
+614,"Once a contact request is submitted, create a support ticket.",Contact Form Submitted,Create Ticket,,
+615,"When a visitor sends a contact request, send an email notification.",Contact Form Submitted,Send Email,,
+616,"After receiving a contact form, create a customer support case, send a Slack notification and send an email.",Contact Form Submitted,Create Ticket,Notify Slack,Send Email
+617,"Whenever a contact message is received, send an email notification.",Contact Form Submitted,Send Email,,
+618,"When a customer submits an enquiry, create a customer support case and send a Slack alert.",Contact Form Submitted,Create Ticket,Notify Slack,
+619,"Upon contact form submission, generate a help desk ticket.",Contact Form Submitted,Create Ticket,,
+620,"Every time a contact form is completed, create a customer support case and notify the Slack channel.",Contact Form Submitted,Create Ticket,Notify Slack,
+621,"When a contact form is submitted, create a support ticket.",Contact Form Submitted,Create Ticket,,
+622,"After a customer submits the contact form, send a Slack notification and send an email.",Contact Form Submitted,Notify Slack,Send Email,
+623,"Whenever someone fills out the contact form, alert the team on Slack.",Contact Form Submitted,Notify Slack,,
+624,"Once a contact request is submitted, post a message to Slack.",Contact Form Submitted,Notify Slack,,
+625,"When a visitor sends a contact request, log a support request and notify the customer by email.",Contact Form Submitted,Create Ticket,Send Email,
+626,"After receiving a contact form, post a message to Slack and send an email notification.",Contact Form Submitted,Notify Slack,Send Email,
+627,"Whenever a contact message is received, log a support request, alert the team on Slack and send an email notification.",Contact Form Submitted,Create Ticket,Notify Slack,Send Email
+628,"When a customer submits an enquiry, notify the Slack channel.",Contact Form Submitted,Notify Slack,,
+629,"Upon contact form submission, create a customer support case, post a message to Slack and send an email.",Contact Form Submitted,Create Ticket,Notify Slack,Send Email
+630,"Every time a contact form is completed, generate a help desk ticket and email the customer.",Contact Form Submitted,Create Ticket,Send Email,
+631,"When a contact form is submitted, create a customer support case and notify the customer by email.",Contact Form Submitted,Create Ticket,Send Email,
+632,"After a customer submits the contact form, notify the Slack channel and send a welcome email.",Contact Form Submitted,Notify Slack,Send Email,
+633,"Whenever someone fills out the contact form, open a support ticket, post a message to Slack and notify the customer by email.",Contact Form Submitted,Create Ticket,Notify Slack,Send Email
+634,"Once a contact request is submitted, open a support ticket.",Contact Form Submitted,Create Ticket,,
+635,"When a visitor sends a contact request, generate a help desk ticket, notify the Slack channel and email the customer.",Contact Form Submitted,Create Ticket,Notify Slack,Send Email
+636,"After receiving a contact form, open a support ticket and send a welcome email.",Contact Form Submitted,Create Ticket,Send Email,
+637,"Whenever a contact message is received, open a support ticket and post a message to Slack.",Contact Form Submitted,Create Ticket,Notify Slack,
+638,"When a customer submits an enquiry, open a support ticket, post a message to Slack and send a welcome email.",Contact Form Submitted,Create Ticket,Notify Slack,Send Email
+639,"Upon contact form submission, send a Slack notification.",Contact Form Submitted,Notify Slack,,
+640,"Every time a contact form is completed, create a support ticket, alert the team on Slack and send a welcome email.",Contact Form Submitted,Create Ticket,Notify Slack,Send Email
+641,"When a contact form is submitted, post a message to Slack and send a welcome email.",Contact Form Submitted,Notify Slack,Send Email,
+642,"After a customer submits the contact form, create a support ticket.",Contact Form Submitted,Create Ticket,,
+643,"Whenever someone fills out the contact form, generate a help desk ticket, alert the team on Slack and send an email.",Contact Form Submitted,Create Ticket,Notify Slack,Send Email
+644,"Once a contact request is submitted, notify the Slack channel and send an email notification.",Contact Form Submitted,Notify Slack,Send Email,
+645,"When a visitor sends a contact request, generate a help desk ticket, send a Slack notification and send an email.",Contact Form Submitted,Create Ticket,Notify Slack,Send Email
+646,"After receiving a contact form, open a support ticket and notify the Slack channel.",Contact Form Submitted,Create Ticket,Notify Slack,
+647,"Whenever a contact message is received, send a welcome email.",Contact Form Submitted,Send Email,,
+648,"When a customer submits an enquiry, log a support request, alert the team on Slack and send an email.",Contact Form Submitted,Create Ticket,Notify Slack,Send Email
+649,"Upon contact form submission, create a support ticket.",Contact Form Submitted,Create Ticket,,
+650,"Every time a contact form is completed, send a Slack alert.",Contact Form Submitted,Notify Slack,,
+651,"When a contact form is submitted, generate a help desk ticket, send a Slack notification and send an email notification.",Contact Form Submitted,Create Ticket,Notify Slack,Send Email
+652,"After a customer submits the contact form, generate a help desk ticket, notify the Slack channel and send an email.",Contact Form Submitted,Create Ticket,Notify Slack,Send Email
+653,"Whenever someone fills out the contact form, open a support ticket and notify the customer by email.",Contact Form Submitted,Create Ticket,Send Email,
+654,"Once a contact request is submitted, generate a help desk ticket, alert the team on Slack and send an email.",Contact Form Submitted,Create Ticket,Notify Slack,Send Email
+655,"When a visitor sends a contact request, generate a help desk ticket and send a Slack alert.",Contact Form Submitted,Create Ticket,Notify Slack,
+656,"After receiving a contact form, create a support ticket, send a Slack alert and send a welcome email.",Contact Form Submitted,Create Ticket,Notify Slack,Send Email
+657,"Whenever a contact message is received, open a support ticket.",Contact Form Submitted,Create Ticket,,
+658,"When a customer submits an enquiry, notify the customer by email.",Contact Form Submitted,Send Email,,
+659,"Upon contact form submission, log a support request, notify the Slack channel and send an email notification.",Contact Form Submitted,Create Ticket,Notify Slack,Send Email
+660,"When a contact form is submitted, log a support request, send a Slack alert and send a welcome email.",Contact Form Submitted,Create Ticket,Notify Slack,Send Email
+661,"After a customer submits the contact form, open a support ticket and notify the Slack channel.",Contact Form Submitted,Create Ticket,Notify Slack,
+662,"Whenever someone fills out the contact form, notify the customer by email.",Contact Form Submitted,Send Email,,
+663,"Once a contact request is submitted, create a customer support case.",Contact Form Submitted,Create Ticket,,
+664,"When a visitor sends a contact request, create a support ticket, notify the Slack channel and send an email.",Contact Form Submitted,Create Ticket,Notify Slack,Send Email
+665,"After receiving a contact form, generate a help desk ticket, send a Slack alert and send an email notification.",Contact Form Submitted,Create Ticket,Notify Slack,Send Email
+666,"When a customer submits an enquiry, log a support request.",Contact Form Submitted,Create Ticket,,
+667,"Upon contact form submission, alert the team on Slack and send an email notification.",Contact Form Submitted,Notify Slack,Send Email,
+668,"Every time a contact form is completed, create a customer support case, alert the team on Slack and send a welcome email.",Contact Form Submitted,Create Ticket,Notify Slack,Send Email
+669,"When a contact form is submitted, alert the team on Slack and send an email.",Contact Form Submitted,Notify Slack,Send Email,
+670,"After a customer submits the contact form, send a Slack notification and send an email notification.",Contact Form Submitted,Notify Slack,Send Email,
+671,"Whenever someone fills out the contact form, send a welcome email.",Contact Form Submitted,Send Email,,
+672,"Once a contact request is submitted, notify the customer by email.",Contact Form Submitted,Send Email,,
+673,"When a visitor sends a contact request, open a support ticket and send a welcome email.",Contact Form Submitted,Create Ticket,Send Email,
+674,"After receiving a contact form, generate a help desk ticket, send a Slack notification and notify the customer by email.",Contact Form Submitted,Create Ticket,Notify Slack,Send Email
+675,"Whenever a contact message is received, create a customer support case, alert the team on Slack and send a welcome email.",Contact Form Submitted,Create Ticket,Notify Slack,Send Email
+676,"When a customer submits an enquiry, open a support ticket, send a Slack alert and send a welcome email.",Contact Form Submitted,Create Ticket,Notify Slack,Send Email
+677,"Upon contact form submission, generate a help desk ticket and email the customer.",Contact Form Submitted,Create Ticket,Send Email,
+678,"Every time a contact form is completed, create a support ticket and email the customer.",Contact Form Submitted,Create Ticket,Send Email,
+679,"When a file is uploaded, store the record.",File Uploaded,Save to Database,,
+680,"After a file upload, post a message to Slack and store the uploaded document.",File Uploaded,Notify Slack,Upload File,
+681,"Whenever a user uploads a file, send a Slack notification, save the customer details and upload the document.",File Uploaded,Notify Slack,Save to Database,Upload File
+682,"Once a file is successfully uploaded, save the file.",File Uploaded,Upload File,,
+683,"When a document is uploaded, alert the team on Slack and upload the file.",File Uploaded,Notify Slack,Upload File,
+684,"After uploading a file, send a Slack notification, store the record and save the uploaded file.",File Uploaded,Notify Slack,Save to Database,Upload File
+685,"Whenever a new file is received, store the information in the database and store the uploaded document.",File Uploaded,Save to Database,Upload File,
+686,"When someone uploads a document, save the uploaded file.",File Uploaded,Upload File,,
+687,"Upon successful file upload, notify the Slack channel, store the record and upload the file.",File Uploaded,Notify Slack,Save to Database,Upload File
+688,"Every time a file is uploaded, send a Slack alert, store the record and upload the file.",File Uploaded,Notify Slack,Save to Database,Upload File
+689,"When a file is uploaded, send a Slack notification and store the uploaded document.",File Uploaded,Notify Slack,Upload File,
+690,"After a file upload, alert the team on Slack and save the data to the database.",File Uploaded,Notify Slack,Save to Database,
+691,"Whenever a user uploads a file, save the customer details and save the uploaded file.",File Uploaded,Save to Database,Upload File,
+692,"Once a file is successfully uploaded, notify the Slack channel.",File Uploaded,Notify Slack,,
+693,"When a document is uploaded, save the uploaded file.",File Uploaded,Upload File,,
+694,"After uploading a file, post a message to Slack and save the customer details.",File Uploaded,Notify Slack,Save to Database,
+695,"Whenever a new file is received, alert the team on Slack, insert the record into the database and store the uploaded document.",File Uploaded,Notify Slack,Save to Database,Upload File
+696,"Upon successful file upload, alert the team on Slack, store the information in the database and upload the file.",File Uploaded,Notify Slack,Save to Database,Upload File
+697,"Every time a file is uploaded, send a Slack alert, save the customer details and store the uploaded document.",File Uploaded,Notify Slack,Save to Database,Upload File
+698,"When a file is uploaded, post a message to Slack and upload the document.",File Uploaded,Notify Slack,Upload File,
+699,"After a file upload, post a message to Slack, save the customer details and save the uploaded file.",File Uploaded,Notify Slack,Save to Database,Upload File
+700,"Whenever a user uploads a file, upload the file.",File Uploaded,Upload File,,
+701,"Once a file is successfully uploaded, save the uploaded file.",File Uploaded,Upload File,,
+702,"When a document is uploaded, store the record and save the file.",File Uploaded,Save to Database,Upload File,
+703,"After uploading a file, notify the Slack channel and save the uploaded file.",File Uploaded,Notify Slack,Upload File,
+704,"Whenever a new file is received, alert the team on Slack, save the customer details and upload the file.",File Uploaded,Notify Slack,Save to Database,Upload File
+705,"When someone uploads a document, send a Slack alert and upload the document.",File Uploaded,Notify Slack,Upload File,
+706,"Upon successful file upload, post a message to Slack, insert the record into the database and save the uploaded file.",File Uploaded,Notify Slack,Save to Database,Upload File
+707,"Every time a file is uploaded, alert the team on Slack and store the uploaded document.",File Uploaded,Notify Slack,Upload File,
+708,"When a file is uploaded, send a Slack alert and save the file.",File Uploaded,Notify Slack,Upload File,
+709,"After a file upload, post a message to Slack, store the record and upload the document.",File Uploaded,Notify Slack,Save to Database,Upload File
+710,"Whenever a user uploads a file, store the uploaded document.",File Uploaded,Upload File,,
+711,"Once a file is successfully uploaded, store the information in the database and save the file.",File Uploaded,Save to Database,Upload File,
+712,"When a document is uploaded, send a Slack alert.",File Uploaded,Notify Slack,,
+713,"After uploading a file, save the data to the database.",File Uploaded,Save to Database,,
+714,"Whenever a new file is received, alert the team on Slack and store the record.",File Uploaded,Notify Slack,Save to Database,
+715,"When someone uploads a document, send a Slack notification, save the customer details and store the uploaded document.",File Uploaded,Notify Slack,Save to Database,Upload File
+716,"Upon successful file upload, notify the Slack channel, insert the record into the database and save the file.",File Uploaded,Notify Slack,Save to Database,Upload File
+717,"Every time a file is uploaded, send a Slack notification and upload the file.",File Uploaded,Notify Slack,Upload File,
+718,"When a file is uploaded, send a Slack notification.",File Uploaded,Notify Slack,,
+719,"After a file upload, send a Slack notification and save the file.",File Uploaded,Notify Slack,Upload File,
+720,"Whenever a user uploads a file, store the information in the database and save the uploaded file.",File Uploaded,Save to Database,Upload File,
+721,"Once a file is successfully uploaded, alert the team on Slack, store the record and save the file.",File Uploaded,Notify Slack,Save to Database,Upload File
+722,"When a document is uploaded, send a Slack notification.",File Uploaded,Notify Slack,,
+723,"After uploading a file, send a Slack notification and insert the record into the database.",File Uploaded,Notify Slack,Save to Database,
+724,"Whenever a new file is received, upload the file.",File Uploaded,Upload File,,
+725,"When someone uploads a document, send a Slack notification.",File Uploaded,Notify Slack,,
+726,"Upon successful file upload, post a message to Slack.",File Uploaded,Notify Slack,,
+727,"Every time a file is uploaded, store the record.",File Uploaded,Save to Database,,
+728,"When a file is uploaded, store the uploaded document.",File Uploaded,Upload File,,
+729,"After a file upload, notify the Slack channel, store the information in the database and save the file.",File Uploaded,Notify Slack,Save to Database,Upload File
+730,"Whenever a user uploads a file, notify the Slack channel, save the data to the database and upload the document.",File Uploaded,Notify Slack,Save to Database,Upload File
+731,"Once a file is successfully uploaded, alert the team on Slack, store the information in the database and save the uploaded file.",File Uploaded,Notify Slack,Save to Database,Upload File
+732,"When a document is uploaded, send a Slack notification, store the record and save the file.",File Uploaded,Notify Slack,Save to Database,Upload File
+733,"After uploading a file, post a message to Slack and store the uploaded document.",File Uploaded,Notify Slack,Upload File,
+734,"Whenever a new file is received, send a Slack notification, save the customer details and save the file.",File Uploaded,Notify Slack,Save to Database,Upload File
+735,"When someone uploads a document, send a Slack notification and save the file.",File Uploaded,Notify Slack,Upload File,
+736,"Upon successful file upload, send a Slack alert and upload the file.",File Uploaded,Notify Slack,Upload File,
+737,"Every time a file is uploaded, save the customer details and save the uploaded file.",File Uploaded,Save to Database,Upload File,
+738,"When a file is uploaded, save the customer details and store the uploaded document.",File Uploaded,Save to Database,Upload File,
+739,"After a file upload, store the information in the database and save the uploaded file.",File Uploaded,Save to Database,Upload File,
+740,"Whenever a user uploads a file, notify the Slack channel, save the customer details and upload the file.",File Uploaded,Notify Slack,Save to Database,Upload File
+741,"Once a file is successfully uploaded, send a Slack notification and insert the record into the database.",File Uploaded,Notify Slack,Save to Database,
+742,"When a document is uploaded, send a Slack alert and insert the record into the database.",File Uploaded,Notify Slack,Save to Database,
+743,"After uploading a file, store the record.",File Uploaded,Save to Database,,
+744,"Whenever a new file is received, post a message to Slack, save the customer details and upload the file.",File Uploaded,Notify Slack,Save to Database,Upload File
+745,"When someone uploads a document, save the data to the database and upload the file.",File Uploaded,Save to Database,Upload File,
+746,"Upon successful file upload, store the information in the database.",File Uploaded,Save to Database,,
+747,"Every time a file is uploaded, send a Slack alert and upload the file.",File Uploaded,Notify Slack,Upload File,
+748,"When a file is uploaded, notify the Slack channel and insert the record into the database.",File Uploaded,Notify Slack,Save to Database,
+749,"After a file upload, notify the Slack channel, save the customer details and store the uploaded document.",File Uploaded,Notify Slack,Save to Database,Upload File
+750,"Whenever a user uploads a file, upload the document.",File Uploaded,Upload File,,
+751,"Once a file is successfully uploaded, alert the team on Slack, store the information in the database and upload the file.",File Uploaded,Notify Slack,Save to Database,Upload File
+752,"When a document is uploaded, store the record.",File Uploaded,Save to Database,,
+753,"After uploading a file, alert the team on Slack, save the customer details and upload the document.",File Uploaded,Notify Slack,Save to Database,Upload File
+754,"Whenever a new file is received, store the record.",File Uploaded,Save to Database,,
+755,"When someone uploads a document, notify the Slack channel and save the uploaded file.",File Uploaded,Notify Slack,Upload File,
+756,"Upon successful file upload, alert the team on Slack.",File Uploaded,Notify Slack,,
+757,"Every time a file is uploaded, save the customer details.",File Uploaded,Save to Database,,
+758,"When a file is uploaded, post a message to Slack and save the data to the database.",File Uploaded,Notify Slack,Save to Database,
+759,"After a file upload, send a Slack alert.",File Uploaded,Notify Slack,,
+760,"Whenever a user uploads a file, insert the record into the database and store the uploaded document.",File Uploaded,Save to Database,Upload File,
+761,"Once a file is successfully uploaded, save the customer details.",File Uploaded,Save to Database,,
+762,"When a document is uploaded, alert the team on Slack and store the information in the database.",File Uploaded,Notify Slack,Save to Database,
+763,"After uploading a file, send a Slack notification and upload the file.",File Uploaded,Notify Slack,Upload File,
+764,"Whenever a new file is received, alert the team on Slack.",File Uploaded,Notify Slack,,
+765,"When someone uploads a document, post a message to Slack, store the record and upload the document.",File Uploaded,Notify Slack,Save to Database,Upload File
+766,"Upon successful file upload, post a message to Slack, save the data to the database and upload the file.",File Uploaded,Notify Slack,Save to Database,Upload File
+767,"Every time a file is uploaded, send a Slack alert and save the file.",File Uploaded,Notify Slack,Upload File,
+768,"When a file is uploaded, post a message to Slack, store the information in the database and save the uploaded file.",File Uploaded,Notify Slack,Save to Database,Upload File
+769,"After a file upload, save the uploaded file.",File Uploaded,Upload File,,
+770,"Whenever a user uploads a file, save the customer details.",File Uploaded,Save to Database,,
+771,"Once a file is successfully uploaded, send a Slack alert, save the data to the database and store the uploaded document.",File Uploaded,Notify Slack,Save to Database,Upload File
+772,"When a document is uploaded, send a Slack alert, insert the record into the database and save the file.",File Uploaded,Notify Slack,Save to Database,Upload File
+773,"After uploading a file, notify the Slack channel and store the record.",File Uploaded,Notify Slack,Save to Database,
+774,"Whenever a new file is received, post a message to Slack, store the information in the database and save the uploaded file.",File Uploaded,Notify Slack,Save to Database,Upload File
+775,"When someone uploads a document, send a Slack alert, save the customer details and store the uploaded document.",File Uploaded,Notify Slack,Save to Database,Upload File
+776,"Upon successful file upload, post a message to Slack, insert the record into the database and save the file.",File Uploaded,Notify Slack,Save to Database,Upload File
+777,"Every time a file is uploaded, alert the team on Slack, insert the record into the database and save the uploaded file.",File Uploaded,Notify Slack,Save to Database,Upload File
+778,"When an invoice is generated, produce a PDF report, email the customer and add the data to the spreadsheet.",Invoice Generated,Generate PDF,Send Email,Update Spreadsheet
+779,"After generating an invoice, append a new row to the spreadsheet.",Invoice Generated,Update Spreadsheet,,
+780,"Whenever a new invoice is created, export the document as PDF and email the customer.",Invoice Generated,Generate PDF,Send Email,
+781,"Once an invoice is available, generate a PDF and add the data to the spreadsheet.",Invoice Generated,Generate PDF,Update Spreadsheet,
+782,"When the invoice is ready, produce a PDF report.",Invoice Generated,Generate PDF,,
+783,"Upon invoice generation, save the document as PDF and update the spreadsheet.",Invoice Generated,Generate PDF,Update Spreadsheet,
+784,"After an invoice is created, create a PDF document.",Invoice Generated,Generate PDF,,
+785,"Whenever an invoice is produced, save the document as PDF and record the details in the spreadsheet.",Invoice Generated,Generate PDF,Update Spreadsheet,
+786,"When a billing invoice is generated, add the data to the spreadsheet.",Invoice Generated,Update Spreadsheet,,
+787,"Every time an invoice is generated, save the document as PDF.",Invoice Generated,Generate PDF,,
+788,"When an invoice is generated, send an email and add the data to the spreadsheet.",Invoice Generated,Send Email,Update Spreadsheet,
+789,"After generating an invoice, send an email.",Invoice Generated,Send Email,,
+790,"Whenever a new invoice is created, generate a PDF.",Invoice Generated,Generate PDF,,
+791,"Once an invoice is available, email the customer and record the details in the spreadsheet.",Invoice Generated,Send Email,Update Spreadsheet,
+792,"When the invoice is ready, generate a PDF and update the spreadsheet.",Invoice Generated,Generate PDF,Update Spreadsheet,
+793,"Upon invoice generation, produce a PDF report.",Invoice Generated,Generate PDF,,
+794,"After an invoice is created, save the document as PDF, send an email notification and record the details in the spreadsheet.",Invoice Generated,Generate PDF,Send Email,Update Spreadsheet
+795,"Whenever an invoice is produced, generate a PDF and email the customer.",Invoice Generated,Generate PDF,Send Email,
+796,"When a billing invoice is generated, generate a PDF.",Invoice Generated,Generate PDF,,
+797,"Every time an invoice is generated, add the data to the spreadsheet.",Invoice Generated,Update Spreadsheet,,
+798,"When an invoice is generated, add the data to the spreadsheet.",Invoice Generated,Update Spreadsheet,,
+799,"After generating an invoice, save the document as PDF, send a welcome email and update the spreadsheet.",Invoice Generated,Generate PDF,Send Email,Update Spreadsheet
+800,"Whenever a new invoice is created, send an email notification and update the spreadsheet.",Invoice Generated,Send Email,Update Spreadsheet,
+801,"Once an invoice is available, save the document as PDF.",Invoice Generated,Generate PDF,,
+802,"When the invoice is ready, produce a PDF report and append a new row to the spreadsheet.",Invoice Generated,Generate PDF,Update Spreadsheet,
+803,"Upon invoice generation, create a PDF document and append a new row to the spreadsheet.",Invoice Generated,Generate PDF,Update Spreadsheet,
+804,"After an invoice is created, save the document as PDF and update the spreadsheet.",Invoice Generated,Generate PDF,Update Spreadsheet,
+805,"Whenever an invoice is produced, record the details in the spreadsheet.",Invoice Generated,Update Spreadsheet,,
+806,"When a billing invoice is generated, generate a PDF, notify the customer by email and update the spreadsheet.",Invoice Generated,Generate PDF,Send Email,Update Spreadsheet
+807,"Every time an invoice is generated, export the document as PDF and record the details in the spreadsheet.",Invoice Generated,Generate PDF,Update Spreadsheet,
+808,"When an invoice is generated, create a PDF document, send an email notification and add the data to the spreadsheet.",Invoice Generated,Generate PDF,Send Email,Update Spreadsheet
+809,"Whenever a new invoice is created, produce a PDF report, email the customer and record the details in the spreadsheet.",Invoice Generated,Generate PDF,Send Email,Update Spreadsheet
+810,"Once an invoice is available, generate a PDF and save the information in the spreadsheet.",Invoice Generated,Generate PDF,Update Spreadsheet,
+811,"When the invoice is ready, create a PDF document, send an email notification and append a new row to the spreadsheet.",Invoice Generated,Generate PDF,Send Email,Update Spreadsheet
+812,"Upon invoice generation, save the document as PDF, send an email and record the details in the spreadsheet.",Invoice Generated,Generate PDF,Send Email,Update Spreadsheet
+813,"Whenever an invoice is produced, generate a PDF, send an email and record the details in the spreadsheet.",Invoice Generated,Generate PDF,Send Email,Update Spreadsheet
+814,"When a billing invoice is generated, record the details in the spreadsheet.",Invoice Generated,Update Spreadsheet,,
+815,"Every time an invoice is generated, export the document as PDF and save the information in the spreadsheet.",Invoice Generated,Generate PDF,Update Spreadsheet,
+816,"When an invoice is generated, produce a PDF report and send a welcome email.",Invoice Generated,Generate PDF,Send Email,
+817,"After generating an invoice, create a PDF document, send an email notification and update the spreadsheet.",Invoice Generated,Generate PDF,Send Email,Update Spreadsheet
+818,"Whenever a new invoice is created, generate a PDF, send an email and add the data to the spreadsheet.",Invoice Generated,Generate PDF,Send Email,Update Spreadsheet
+819,"Once an invoice is available, produce a PDF report.",Invoice Generated,Generate PDF,,
+820,"When the invoice is ready, create a PDF document, send a welcome email and append a new row to the spreadsheet.",Invoice Generated,Generate PDF,Send Email,Update Spreadsheet
+821,"Upon invoice generation, email the customer and update the spreadsheet.",Invoice Generated,Send Email,Update Spreadsheet,
+822,"After an invoice is created, export the document as PDF.",Invoice Generated,Generate PDF,,
+823,"Whenever an invoice is produced, send an email notification.",Invoice Generated,Send Email,,
+824,"Every time an invoice is generated, append a new row to the spreadsheet.",Invoice Generated,Update Spreadsheet,,
+825,"When an invoice is generated, produce a PDF report, notify the customer by email and update the spreadsheet.",Invoice Generated,Generate PDF,Send Email,Update Spreadsheet
+826,"After generating an invoice, add the data to the spreadsheet.",Invoice Generated,Update Spreadsheet,,
+827,"Whenever a new invoice is created, save the document as PDF, send an email and update the spreadsheet.",Invoice Generated,Generate PDF,Send Email,Update Spreadsheet
+828,"Once an invoice is available, export the document as PDF, email the customer and add the data to the spreadsheet.",Invoice Generated,Generate PDF,Send Email,Update Spreadsheet
+829,"When the invoice is ready, save the document as PDF.",Invoice Generated,Generate PDF,,
+830,"Upon invoice generation, generate a PDF, email the customer and record the details in the spreadsheet.",Invoice Generated,Generate PDF,Send Email,Update Spreadsheet
+831,"After an invoice is created, produce a PDF report and add the data to the spreadsheet.",Invoice Generated,Generate PDF,Update Spreadsheet,
+832,"Whenever an invoice is produced, create a PDF document and add the data to the spreadsheet.",Invoice Generated,Generate PDF,Update Spreadsheet,
+833,"When a billing invoice is generated, send an email and add the data to the spreadsheet.",Invoice Generated,Send Email,Update Spreadsheet,
+834,"Every time an invoice is generated, update the spreadsheet.",Invoice Generated,Update Spreadsheet,,
+835,"When an invoice is generated, export the document as PDF, send a welcome email and append a new row to the spreadsheet.",Invoice Generated,Generate PDF,Send Email,Update Spreadsheet
+836,"After generating an invoice, generate a PDF, send a welcome email and update the spreadsheet.",Invoice Generated,Generate PDF,Send Email,Update Spreadsheet
+837,"Whenever a new invoice is created, produce a PDF report, send a welcome email and save the information in the spreadsheet.",Invoice Generated,Generate PDF,Send Email,Update Spreadsheet
+838,"Once an invoice is available, create a PDF document and send a welcome email.",Invoice Generated,Generate PDF,Send Email,
+839,"When the invoice is ready, save the document as PDF and email the customer.",Invoice Generated,Generate PDF,Send Email,
+840,"Upon invoice generation, generate a PDF, send an email notification and save the information in the spreadsheet.",Invoice Generated,Generate PDF,Send Email,Update Spreadsheet
+841,"After an invoice is created, generate a PDF.",Invoice Generated,Generate PDF,,
+842,"Whenever an invoice is produced, create a PDF document.",Invoice Generated,Generate PDF,,
+843,"When a billing invoice is generated, export the document as PDF, notify the customer by email and record the details in the spreadsheet.",Invoice Generated,Generate PDF,Send Email,Update Spreadsheet
+844,"Every time an invoice is generated, send an email notification.",Invoice Generated,Send Email,,
+845,"When an invoice is generated, export the document as PDF and send an email.",Invoice Generated,Generate PDF,Send Email,
+846,"After generating an invoice, send a welcome email.",Invoice Generated,Send Email,,
+847,"Whenever a new invoice is created, append a new row to the spreadsheet.",Invoice Generated,Update Spreadsheet,,
+848,"Once an invoice is available, send an email notification.",Invoice Generated,Send Email,,
+849,"When the invoice is ready, update the spreadsheet.",Invoice Generated,Update Spreadsheet,,
+850,"Upon invoice generation, notify the customer by email and record the details in the spreadsheet.",Invoice Generated,Send Email,Update Spreadsheet,
+851,"After an invoice is created, generate a PDF and send an email.",Invoice Generated,Generate PDF,Send Email,
+852,"Whenever an invoice is produced, export the document as PDF.",Invoice Generated,Generate PDF,,
+853,"When a billing invoice is generated, generate a PDF, send a welcome email and update the spreadsheet.",Invoice Generated,Generate PDF,Send Email,Update Spreadsheet
+854,"When an invoice is generated, save the document as PDF and record the details in the spreadsheet.",Invoice Generated,Generate PDF,Update Spreadsheet,
+855,"After generating an invoice, create a PDF document, send a welcome email and append a new row to the spreadsheet.",Invoice Generated,Generate PDF,Send Email,Update Spreadsheet
+856,"Whenever a new invoice is created, produce a PDF report and append a new row to the spreadsheet.",Invoice Generated,Generate PDF,Update Spreadsheet,
+857,"Once an invoice is available, send a welcome email and add the data to the spreadsheet.",Invoice Generated,Send Email,Update Spreadsheet,
+858,"When the invoice is ready, generate a PDF, notify the customer by email and save the information in the spreadsheet.",Invoice Generated,Generate PDF,Send Email,Update Spreadsheet
+859,"Upon invoice generation, create a PDF document and save the information in the spreadsheet.",Invoice Generated,Generate PDF,Update Spreadsheet,
+860,"After an invoice is created, create a PDF document and notify the customer by email.",Invoice Generated,Generate PDF,Send Email,
+861,"Whenever an invoice is produced, produce a PDF report and send a welcome email.",Invoice Generated,Generate PDF,Send Email,
+862,"When a billing invoice is generated, export the document as PDF.",Invoice Generated,Generate PDF,,
+863,"Every time an invoice is generated, save the information in the spreadsheet.",Invoice Generated,Update Spreadsheet,,
+864,"When an invoice is generated, save the document as PDF, send an email notification and save the information in the spreadsheet.",Invoice Generated,Generate PDF,Send Email,Update Spreadsheet
+865,"After generating an invoice, create a PDF document.",Invoice Generated,Generate PDF,,
+866,"Whenever a new invoice is created, create a PDF document and save the information in the spreadsheet.",Invoice Generated,Generate PDF,Update Spreadsheet,
+867,"Once an invoice is available, save the document as PDF, notify the customer by email and append a new row to the spreadsheet.",Invoice Generated,Generate PDF,Send Email,Update Spreadsheet
+868,"When the invoice is ready, notify the customer by email.",Invoice Generated,Send Email,,
+869,"Upon invoice generation, export the document as PDF and send a welcome email.",Invoice Generated,Generate PDF,Send Email,
+870,"After an invoice is created, create a PDF document, send a welcome email and append a new row to the spreadsheet.",Invoice Generated,Generate PDF,Send Email,Update Spreadsheet
+871,"Whenever an invoice is produced, generate a PDF and append a new row to the spreadsheet.",Invoice Generated,Generate PDF,Update Spreadsheet,
+872,"When a billing invoice is generated, produce a PDF report and send a welcome email.",Invoice Generated,Generate PDF,Send Email,
+873,"Every time an invoice is generated, produce a PDF report.",Invoice Generated,Generate PDF,,
+874,"When a support ticket is created, send an email notification.",Support Ticket Created,Send Email,,
+875,"After creating a support ticket, send the task to an employee.",Support Ticket Created,Assign to Employee,,
+876,"Whenever a customer raises a support ticket, assign the case, alert the team on Slack and email the customer.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+877,"Once a support request is submitted, assign the case.",Support Ticket Created,Assign to Employee,,
+878,"When a new support case is opened, alert the team on Slack and notify the customer by email.",Support Ticket Created,Notify Slack,Send Email,
+879,"After receiving a support request, assign the request to a team member.",Support Ticket Created,Assign to Employee,,
+880,"Upon support ticket creation, alert the team on Slack.",Support Ticket Created,Notify Slack,,
+881,"Whenever a help desk ticket is created, assign the task to an employee, send a Slack notification and notify the customer by email.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+882,"When a customer reports an issue, notify the customer by email.",Support Ticket Created,Send Email,,
+883,"Every time a support ticket is opened, send a Slack alert.",Support Ticket Created,Notify Slack,,
+884,"When a support ticket is created, assign the task to an employee.",Support Ticket Created,Assign to Employee,,
+885,"After creating a support ticket, assign the request to a team member and alert the team on Slack.",Support Ticket Created,Assign to Employee,Notify Slack,
+886,"Whenever a customer raises a support ticket, notify the Slack channel.",Support Ticket Created,Notify Slack,,
+887,"Once a support request is submitted, assign the case, send a Slack alert and send an email notification.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+888,"When a new support case is opened, notify the Slack channel.",Support Ticket Created,Notify Slack,,
+889,"After receiving a support request, send the task to an employee, post a message to Slack and send an email notification.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+890,"Upon support ticket creation, send an email notification.",Support Ticket Created,Send Email,,
+891,"Whenever a help desk ticket is created, send an email.",Support Ticket Created,Send Email,,
+892,"When a customer reports an issue, send a Slack alert.",Support Ticket Created,Notify Slack,,
+893,"Every time a support ticket is opened, send the task to an employee, send a Slack notification and email the customer.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+894,"When a support ticket is created, post a message to Slack and send an email.",Support Ticket Created,Notify Slack,Send Email,
+895,"After creating a support ticket, send a Slack alert.",Support Ticket Created,Notify Slack,,
+896,"Whenever a customer raises a support ticket, send the task to an employee, send a Slack notification and send an email.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+897,"Once a support request is submitted, email the customer.",Support Ticket Created,Send Email,,
+898,"When a new support case is opened, send the task to an employee, send a Slack alert and email the customer.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+899,"After receiving a support request, send the task to an employee, send a Slack alert and notify the customer by email.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+900,"Upon support ticket creation, assign the task to an employee, send a Slack alert and send a welcome email.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+901,"Whenever a help desk ticket is created, send a Slack notification.",Support Ticket Created,Notify Slack,,
+902,"When a customer reports an issue, send a welcome email.",Support Ticket Created,Send Email,,
+903,"Every time a support ticket is opened, send a Slack notification.",Support Ticket Created,Notify Slack,,
+904,"When a support ticket is created, send a Slack notification and send a welcome email.",Support Ticket Created,Notify Slack,Send Email,
+905,"After creating a support ticket, allocate the work to an employee, post a message to Slack and send a welcome email.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+906,"Whenever a customer raises a support ticket, assign the request to a team member, send a Slack alert and email the customer.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+907,"Once a support request is submitted, assign the case, post a message to Slack and email the customer.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+908,"When a new support case is opened, assign the request to a team member, send a Slack alert and notify the customer by email.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+909,"After receiving a support request, email the customer.",Support Ticket Created,Send Email,,
+910,"Upon support ticket creation, allocate the work to an employee, post a message to Slack and send an email.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+911,"Whenever a help desk ticket is created, send the task to an employee, notify the Slack channel and notify the customer by email.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+912,"When a customer reports an issue, alert the team on Slack.",Support Ticket Created,Notify Slack,,
+913,"Every time a support ticket is opened, send the task to an employee, alert the team on Slack and send a welcome email.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+914,"When a support ticket is created, assign the task to an employee and send a Slack notification.",Support Ticket Created,Assign to Employee,Notify Slack,
+915,"After creating a support ticket, send the task to an employee and email the customer.",Support Ticket Created,Assign to Employee,Send Email,
+916,"Whenever a customer raises a support ticket, notify the Slack channel and email the customer.",Support Ticket Created,Notify Slack,Send Email,
+917,"Once a support request is submitted, send the task to an employee, send a Slack notification and notify the customer by email.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+918,"When a new support case is opened, allocate the work to an employee, send a Slack notification and send an email.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+919,"After receiving a support request, allocate the work to an employee, send a Slack notification and send an email notification.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+920,"Whenever a help desk ticket is created, allocate the work to an employee, post a message to Slack and send a welcome email.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+921,"When a customer reports an issue, notify the Slack channel and send an email notification.",Support Ticket Created,Notify Slack,Send Email,
+922,"Every time a support ticket is opened, post a message to Slack and send a welcome email.",Support Ticket Created,Notify Slack,Send Email,
+923,"When a support ticket is created, allocate the work to an employee and send an email notification.",Support Ticket Created,Assign to Employee,Send Email,
+924,"After creating a support ticket, assign the request to a team member.",Support Ticket Created,Assign to Employee,,
+925,"Whenever a customer raises a support ticket, assign the request to a team member, send a Slack notification and notify the customer by email.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+926,"Once a support request is submitted, send the task to an employee.",Support Ticket Created,Assign to Employee,,
+927,"When a new support case is opened, assign the request to a team member, notify the Slack channel and notify the customer by email.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+928,"After receiving a support request, assign the task to an employee, notify the Slack channel and send an email.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+929,"Upon support ticket creation, send the task to an employee and send an email.",Support Ticket Created,Assign to Employee,Send Email,
+930,"Whenever a help desk ticket is created, post a message to Slack and notify the customer by email.",Support Ticket Created,Notify Slack,Send Email,
+931,"When a customer reports an issue, assign the case and notify the Slack channel.",Support Ticket Created,Assign to Employee,Notify Slack,
+932,"Every time a support ticket is opened, assign the task to an employee, alert the team on Slack and send an email notification.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+933,"When a support ticket is created, alert the team on Slack.",Support Ticket Created,Notify Slack,,
+934,"After creating a support ticket, assign the case, post a message to Slack and send a welcome email.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+935,"Whenever a customer raises a support ticket, assign the request to a team member and notify the customer by email.",Support Ticket Created,Assign to Employee,Send Email,
+936,"Once a support request is submitted, allocate the work to an employee, notify the Slack channel and send an email notification.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+937,"When a new support case is opened, assign the task to an employee, send a Slack alert and send an email notification.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+938,"After receiving a support request, allocate the work to an employee and send an email.",Support Ticket Created,Assign to Employee,Send Email,
+939,"Upon support ticket creation, assign the case, send a Slack alert and send an email.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+940,"Whenever a help desk ticket is created, assign the request to a team member.",Support Ticket Created,Assign to Employee,,
+941,"When a customer reports an issue, assign the request to a team member, send a Slack alert and send a welcome email.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+942,"Every time a support ticket is opened, assign the task to an employee, alert the team on Slack and send a welcome email.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+943,"After creating a support ticket, send a Slack notification and send an email.",Support Ticket Created,Notify Slack,Send Email,
+944,"Whenever a customer raises a support ticket, send a Slack alert.",Support Ticket Created,Notify Slack,,
+945,"Once a support request is submitted, allocate the work to an employee.",Support Ticket Created,Assign to Employee,,
+946,"When a new support case is opened, send a Slack alert and email the customer.",Support Ticket Created,Notify Slack,Send Email,
+947,"After receiving a support request, allocate the work to an employee, post a message to Slack and send an email.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+948,"Upon support ticket creation, send a Slack notification.",Support Ticket Created,Notify Slack,,
+949,"Whenever a help desk ticket is created, notify the customer by email.",Support Ticket Created,Send Email,,
+950,"When a customer reports an issue, allocate the work to an employee and post a message to Slack.",Support Ticket Created,Assign to Employee,Notify Slack,
+951,"Every time a support ticket is opened, alert the team on Slack and notify the customer by email.",Support Ticket Created,Notify Slack,Send Email,
+952,"When a support ticket is created, allocate the work to an employee, send a Slack notification and send an email notification.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+953,"After creating a support ticket, notify the Slack channel.",Support Ticket Created,Notify Slack,,
+954,"Whenever a customer raises a support ticket, send the task to an employee, send a Slack alert and notify the customer by email.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+955,"Once a support request is submitted, send the task to an employee, send a Slack alert and notify the customer by email.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+956,"When a new support case is opened, assign the request to a team member, send a Slack alert and email the customer.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+957,"After receiving a support request, send a Slack alert.",Support Ticket Created,Notify Slack,,
+958,"Upon support ticket creation, send the task to an employee, notify the Slack channel and send an email.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+959,"Whenever a help desk ticket is created, assign the case, send a Slack notification and send an email.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+960,"When a customer reports an issue, allocate the work to an employee, notify the Slack channel and send an email.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+961,"Every time a support ticket is opened, allocate the work to an employee and email the customer.",Support Ticket Created,Assign to Employee,Send Email,
+962,"When a support ticket is created, assign the request to a team member.",Support Ticket Created,Assign to Employee,,
+963,"After creating a support ticket, assign the case, notify the Slack channel and send a welcome email.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+964,"Whenever a customer raises a support ticket, allocate the work to an employee, send a Slack alert and send an email notification.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+965,"Once a support request is submitted, allocate the work to an employee, send a Slack alert and send a welcome email.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+966,"When a new support case is opened, send the task to an employee, post a message to Slack and email the customer.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+967,"After receiving a support request, send a Slack alert and send a welcome email.",Support Ticket Created,Notify Slack,Send Email,
+968,"Upon support ticket creation, assign the request to a team member, notify the Slack channel and send an email notification.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+969,"Whenever a help desk ticket is created, assign the request to a team member, send a Slack notification and email the customer.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+970,"When a customer reports an issue, assign the case, alert the team on Slack and send a welcome email.",Support Ticket Created,Assign to Employee,Notify Slack,Send Email
+971,"Every time a support ticket is opened, post a message to Slack and send an email.",Support Ticket Created,Notify Slack,Send Email,

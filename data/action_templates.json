@@ -1,0 +1,161 @@
+{
+  "Send Email": [
+    "send a welcome email",
+    "send an email",
+    "email the customer",
+    "notify the customer by email",
+    "send an email notification"
+  ],
+
+  "Notify Slack": [
+    "notify the Slack channel",
+    "send a Slack notification",
+    "alert the team on Slack",
+    "post a message to Slack",
+    "send a Slack alert"
+  ],
+
+  "Save to Database": [
+    "save the customer details",
+    "store the information in the database",
+    "save the data to the database",
+    "insert the record into the database",
+    "store the record"
+  ],
+
+  "Generate Invoice": [
+    "generate an invoice",
+    "create an invoice",
+    "prepare the invoice",
+    "produce a billing invoice",
+    "generate the customer's invoice"
+  ],
+
+  "Update CRM": [
+    "update the CRM",
+    "create a CRM record",
+    "save the customer in the CRM",
+    "update the customer profile in the CRM",
+    "add the customer to the CRM"
+  ],
+
+  "Update Spreadsheet": [
+    "update the spreadsheet",
+    "add the data to the spreadsheet",
+    "record the details in the spreadsheet",
+    "append a new row to the spreadsheet",
+    "save the information in the spreadsheet"
+  ],
+
+  "Send SMS": [
+    "send an SMS",
+    "send a text message",
+    "notify the customer by SMS",
+    "send an SMS notification",
+    "text the customer"
+  ],
+
+  "Send WhatsApp Message": [
+    "send a WhatsApp message",
+    "notify the customer on WhatsApp",
+    "send a WhatsApp notification",
+    "message the customer on WhatsApp",
+    "send a WhatsApp alert"
+  ],
+
+  "Create Ticket": [
+    "create a support ticket",
+    "open a support ticket",
+    "generate a help desk ticket",
+    "log a support request",
+    "create a customer support case"
+  ],
+
+  "Call Webhook": [
+    "call the webhook",
+    "trigger the webhook",
+    "send a webhook request",
+    "invoke the webhook",
+    "execute the webhook"
+  ],
+
+  "Assign to Employee": [
+    "assign the task to an employee",
+    "assign the request to a team member",
+    "allocate the work to an employee",
+    "assign the case",
+    "send the task to an employee"
+  ],
+
+  "Generate PDF": [
+    "generate a PDF",
+    "create a PDF document",
+    "export the document as PDF",
+    "produce a PDF report",
+    "save the document as PDF"
+  ],
+
+  "Upload File": [
+    "upload the file",
+    "save the uploaded file",
+    "store the uploaded document",
+    "upload the document",
+    "save the file"
+  ],
+
+  "Archive Data": [
+    "archive the data",
+    "move the data to the archive",
+    "store the record in the archive",
+    "archive the information",
+    "save the record in archive storage"
+  ],
+
+  "Start Approval Process": [
+    "start the approval process",
+    "begin the approval workflow",
+    "initiate the approval request",
+    "send the item for approval",
+    "launch the approval process"
+  ],
+
+  "Log Activity": [
+    "log the activity",
+    "record the activity",
+    "save the activity log",
+    "track the activity",
+    "create an activity log entry"
+  ],
+
+  "Create Report": [
+    "create a report",
+    "generate a report",
+    "prepare the report",
+    "produce a business report",
+    "generate an analytics report"
+  ],
+
+  "Add Tag": [
+    "add a tag",
+    "assign a tag",
+    "label the record",
+    "tag the customer",
+    "apply a tag"
+  ],
+
+  "Create Calendar Event": [
+    "create a calendar event",
+    "schedule a calendar event",
+    "add an event to the calendar",
+    "book the event in the calendar",
+    "create a meeting event"
+  ],
+
+  "Send Push Notification": [
+    "send a push notification",
+    "notify the user with a push notification",
+    "send a mobile notification",
+    "push a notification to the device",
+    "send an app notification"
+  ]
+}

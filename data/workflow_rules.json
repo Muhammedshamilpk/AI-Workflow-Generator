@@ -1,0 +1,63 @@
+{
+  "User Signup": [
+    "Send Email",
+    "Notify Slack",
+    "Save to Database",
+    "Update CRM"
+  ],
+
+  "User Login": [
+    "Log Activity",
+    "Notify Slack",
+    "Update CRM"
+  ],
+
+  "New Order": [
+    "Generate Invoice",
+    "Save to Database",
+    "Notify Slack",
+    "Update Spreadsheet"
+  ],
+
+  "Payment Success": [
+    "Generate Invoice",
+    "Send Email",
+    "Update Spreadsheet"
+  ],
+
+  "Payment Failed": [
+    "Send Email",
+    "Notify Slack",
+    "Create Ticket"
+  ],
+
+  "Order Cancelled": [
+    "Send Email",
+    "Update Spreadsheet",
+    "Notify Slack"
+  ],
+
+  "Contact Form Submitted": [
+    "Send Email",
+    "Create Ticket",
+    "Notify Slack"
+  ],
+
+  "File Uploaded": [
+    "Upload File",
+    "Save to Database",
+    "Notify Slack"
+  ],
+
+  "Invoice Generated": [
+    "Send Email",
+    "Generate PDF",
+    "Update Spreadsheet"
+  ],
+
+  "Support Ticket Created": [
+    "Assign to Employee",
+    "Notify Slack",
+    "Send Email"
+  ]
+}

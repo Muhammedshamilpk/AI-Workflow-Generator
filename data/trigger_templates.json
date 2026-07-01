@@ -1,0 +1,131 @@
+{
+  "User Signup": [
+    "When a customer signs up",
+    "When a new user registers",
+    "After user registration",
+    "Whenever someone creates an account",
+    "Once registration is completed",
+    "When a new account is created",
+    "After a customer registers",
+    "Whenever a user signs up",
+    "On successful registration",
+    "Every time a customer creates an account"
+  ],
+
+  "User Login": [
+    "When a user logs in",
+    "After user login",
+    "Whenever a customer signs in",
+    "Once login is successful",
+    "Every time a user logs in",
+    "When someone signs into their account",
+    "After successful login",
+    "Whenever login occurs",
+    "When a customer accesses their account",
+    "On user login"
+  ],
+
+  "New Order": [
+    "When a new order is placed",
+    "After an order is received",
+    "Whenever a customer places an order",
+    "Once a new order arrives",
+    "When an order is created",
+    "Every time an order is submitted",
+    "After a purchase is completed",
+    "When a customer completes checkout",
+    "Whenever an order is confirmed",
+    "On new order creation"
+  ],
+
+  "Payment Success": [
+    "When payment succeeds",
+    "After a successful payment",
+    "Whenever a payment is completed",
+    "Once payment is successful",
+    "When payment is confirmed",
+    "After payment confirmation",
+    "Every time a payment succeeds",
+    "When a customer completes payment",
+    "Upon successful payment",
+    "After receiving payment"
+  ],
+
+  "Payment Failed": [
+    "When payment fails",
+    "After a failed payment",
+    "Whenever a payment is declined",
+    "If a payment is unsuccessful",
+    "When a transaction fails",
+    "After payment rejection",
+    "Upon payment failure",
+    "When the payment cannot be processed",
+    "If the transaction is declined",
+    "Whenever payment is not completed"
+  ],
+
+  "Order Cancelled": [
+    "When an order is cancelled",
+    "After an order cancellation",
+    "Whenever a customer cancels an order",
+    "If an order is cancelled",
+    "When a purchase is cancelled",
+    "After an order is terminated",
+    "Upon order cancellation",
+    "Whenever an order gets cancelled",
+    "If a customer cancels their order",
+    "On order cancellation"
+  ],
+
+  "Contact Form Submitted": [
+    "When a contact form is submitted",
+    "After a customer submits the contact form",
+    "Whenever someone fills out the contact form",
+    "Once a contact request is submitted",
+    "When a visitor sends a contact request",
+    "After receiving a contact form",
+    "Whenever a contact message is received",
+    "When a customer submits an enquiry",
+    "Upon contact form submission",
+    "Every time a contact form is completed"
+  ],
+
+  "File Uploaded": [
+    "When a file is uploaded",
+    "After a file upload",
+    "Whenever a user uploads a file",
+    "Once a file is successfully uploaded",
+    "When a document is uploaded",
+    "After uploading a file",
+    "Whenever a new file is received",
+    "When someone uploads a document",
+    "Upon successful file upload",
+    "Every time a file is uploaded"
+  ],
+
+  "Invoice Generated": [
+    "When an invoice is generated",
+    "After generating an invoice",
+    "Whenever a new invoice is created",
+    "Once an invoice is available",
+    "When the invoice is ready",
+    "Upon invoice generation",
+    "After an invoice is created",
+    "Whenever an invoice is produced",
+    "When a billing invoice is generated",
+    "Every time an invoice is generated"
+  ],
+
+  "Support Ticket Created": [
+    "When a support ticket is created",
+    "After creating a support ticket",
+    "Whenever a customer raises a support ticket",
+    "Once a support request is submitted",
+    "When a new support case is opened",
+    "After receiving a support request",
+    "Upon support ticket creation",
+    "Whenever a help desk ticket is created",
+    "When a customer reports an issue",
+    "Every time a support ticket is opened"
+  ]
+}
