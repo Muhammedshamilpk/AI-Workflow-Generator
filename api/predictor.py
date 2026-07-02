@@ -3,9 +3,10 @@ import json
 from pathlib import Path
 import sys
 import sklearn
+from utils.workflow_names import WORKFLOW_NAMES
 
-print("Python Executable:", sys.executable)
-print("Scikit-learn Version:", sklearn.__version__)
+# print("Python Executable:", sys.executable)
+# print("Scikit-learn Version:", sklearn.__version__)
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 MODELS_DIR = BASE_DIR / "models"
@@ -55,6 +56,8 @@ print(MODELS_DIR / "trigger_pipeline.pkl")
 with open(DATA_DIR / "workflow_rules.json","r") as f:
     workflow_rules = json.load(f)
     
+
+    
 def predict_workflow(text:str):
     
     trigger_prediction = trigger_pipeline.predict([text])
@@ -62,6 +65,14 @@ def predict_workflow(text:str):
     trigger = trigger_encoder.inverse_transform(
         trigger_prediction
     )[0]
+    
+    trigger_probabilities = trigger_pipeline.predict_proba([text])
+    
+    confidence = round(
+        trigger_probabilities.max()*100,2
+    )
+    
+    
     
     action_prediction = action_pipeline.predict([text])
 
@@ -92,9 +103,33 @@ def predict_workflow(text:str):
             final_actions.append(action)
             
     final_actions = list(dict.fromkeys(final_actions))
-        
+    
+    actions = []
+    
+    for index,action in enumerate(final_actions, start=1):
+        actions.append(
+            {
+                "id":index,
+                "name":action,
+                "order":index
+            }
+        )
+    
+    workflow_name =WORKFLOW_NAMES.get(trigger,"Business Workflow")    
     workflow = {
-        "trigger":trigger,
-        "actions":final_actions
+        "workflow_name":workflow_name,
+        "trigger":{
+            "name":trigger,
+            "confidence":confidence
+        },
+        "actions":actions,
+        "conditions":[],
+        "parallel_actions":[],
+        "suggestions":[],
+        "metadata":{
+            "model_version":"2.0",
+            "generated_by":"AI Workflow Design Assistant"
+        }
+        
     }
     return workflow
